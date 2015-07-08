@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audacious Fox</title>
+    <description>Liberal arts, in your browser.</description>
+    <link>http://audaciousfox.com/</link>
+    <atom:link href="http://audaciousfox.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 07 Jul 2015 23:55:43 -0400</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2015 23:55:43 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Conditionals Are Cool</title>
+        <description>&lt;p&gt;My best friend and partner in crime, Nathan Ansel, has just started his new blog called &lt;em&gt;Conditionals Are Cool&lt;/em&gt;. It’s dedicated to writing about programming, technology, and whatever else interests him, and it is bound to be good.&lt;/p&gt;
+
+&lt;p&gt;Check it out and subscribe.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://audaciousfox.com/2015/07/conditionals-are-cool/</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/07/conditionals-are-cool/</guid>
+      </item>
+    
+      <item>
+        <title>Dreams, Beck&amp;#8217;s new single</title>
+        <description>&lt;p&gt;Beck’s new single, Dreams, is really fantastic. I got to see him in concert last month, and it was a great show.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://audaciousfox.com/2015/06/dreams-becks-new-single/</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/06/dreams-becks-new-single/</guid>
+      </item>
+    
+      <item>
+        <title>Touch &amp;#038; Tap</title>
+        <description>&lt;p&gt;Apple has a lot going on right now with the Apple Watch, new MacBook, ResearchKit, Apple TV, and of course WWDC right around the corner. However, they’ve managed to adopt a new technology really quickly that I think is the most exciting thing happening at the moment technology-wise. That thing is Force Touch and the Taptic Engine.&lt;/p&gt;
+
+&lt;p&gt;First introduced with the &lt;a href=&quot;http://www.apple.com/watch/&quot;&gt;Apple Watch&lt;/a&gt;, Force Touch is a new technology that let’s touch sensitive surfaces detect and recognize varying amounts and types of pressure. For example, force touching the screen of the Watch lets the user access contextual options. Additionally, the Taptic Engine is a new haptic feedback mechanism that can provide very realistic feedback. An example of this is when you get a notification on the Watch and it taps your wrist to let you know.&lt;/p&gt;
+
+&lt;p&gt;Just to clarify, the Watch doesn’t just vibrate like your iPhone. It creates a realistic sensation of a downward force on your wrist.&lt;/p&gt;
+
+&lt;p&gt;Most recently, Apple have added these technologies to the trackpad of the new &lt;a href=&quot;http://www.apple.com/macbook/&quot;&gt;MacBook&lt;/a&gt; (and also the MacBook Pro with Retina Display). Now, instead of the trackpad moving up and down when you click, it just senses the force that you are applying, and then uses the Taptic Engine to make it feel like the trackpad is moving.&lt;/p&gt;
+
+&lt;p&gt;This may not sound very interesting. On the surface, it just replaces a moving trackpad with the &lt;em&gt;sensation&lt;/em&gt; of a moving trackpad. But these technologies open up a world of possibilities. Apple is already exploring some of those on the Mac. For example, the trackpad can register “Force clicks” and perform contextual actions. If you force click a file, you will get a quick look of that file. If you click a file and apply a little more pressure, your Mac will know that you want to drag the file. Drawing on the trackpad is now pressure sensitive.&lt;/p&gt;
+
+&lt;p&gt;The Taptic Engine also comes into play. It can provide a tactile response to action on screen. &lt;a href=&quot;http://alex4d.com/notes/item/bumpy-pixels-future-haptic-apple-force-touch-trackpad&quot;&gt;Alex Gollner writes about&lt;/a&gt; how when dragging a video clip in iMovie to its maximum length, the trackpad will let you know you’ve hit the end using physical feedback. I haven’t used the new trackpad yet, so I can’t speak for it myself, but from what I’ve heard it is uncanny how realistic and accurate force touches and Taptic feedback is.&lt;/p&gt;
+
+&lt;p&gt;I think that these technologies are really important for Apple. I have no doubts that we will see them on the next iPhone and iPad, and that has some huge repercussions. &lt;a href=&quot;http://alex4d.com/notes/item/bumpy-pixels-future-haptic-apple-force-touch-trackpad&quot;&gt;Alex has this to say in the same article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhaps we’ll look back and realise that the iOS 7 update removed borders from buttons because one day Apple user interfaces will be able to be felt as much as seen, and button text labels will feel more distinctive than button borders under our fingertips.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Can you imagine? Tapping a button in an iOS app feeling the sensation of pressing a real-life button is &lt;em&gt;huge&lt;/em&gt;. Not to mention tactile responses when dragging and selecting in apps, or feeling textures in games. And Force Touch will give us a whole new way to interact with iOS. Plus, force sensitive drawing could make the iPad the best drawing tablet on the market.&lt;/p&gt;
+
+&lt;p&gt;Apple’s touch and tap technologies came out of nowhere fast. I don’t think people quite understand yet how important this will be to changing digital interfaces. We have always been able to use touch to interact with our devices, but they have never really been able to use touch to interact with us. I am very excited to see how we will be using our devices in a year or two.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 16 Mar 2015 00:00:00 -0400</pubDate>
+        <link>http://audaciousfox.com/2015/03/touch-and-tap/</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/03/touch-and-tap/</guid>
+      </item>
+    
+      <item>
+        <title>Freeing Springboard</title>
+        <description>&lt;p&gt;Would this work?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/iphone-6-springboard.png&quot; alt=&quot;Would this work&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s a simple change, but the perceived value is immediate. You can put icons anywhere on the existing grid, eliminating the need to &lt;a href=&quot;http://david-smith.org/blog/2014/10/15/blank-icon-slots/&quot;&gt;implement hackery&lt;/a&gt; just to make apps easier to launch. In fact, the current (forced) top-to-bottom, left-to-right layout of the iOS Springboard is one of the reasons I find less appeal in the larger iPhone 6 and iPhone 6 Plus screens.&lt;/p&gt;
+
+&lt;p&gt;I know Reachability sort of helps, but forcing users to make three taps to open an app (two for Reachability and one for the app itself) is less than ideal. An argument can be made that this is the tradeoff you make when choosing a larger screen, but  is this a compromise that needs to be made at all? Android has been implementing a “free” type of home screen layout for years, and I think it works particularly well for increasing usability across large devices.&lt;/p&gt;
+
+&lt;p&gt;Since the iPhone’s introduction seven years ago, the iOS Springboard has remained largely unchanged, and, as a programmer, I know that this type of “simple” change could be a logistical nightmare to implement. However, Apple has always done particularly well at using software design to mitigate constraints imposed by hardware. If the iPhone 6 and iPhone 6 Plus are the sizes Apple wants to commit to for the future, I think Springboard should grow up some too.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Feb 2015 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2015/02/02/freeing-springboard.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/02/02/freeing-springboard.html</guid>
+      </item>
+    
+      <item>
+        <title>My next Three Books</title>
+        <description>&lt;p&gt;I recently had the opportunity to pick up three books that I had been meaning to buy. I’ve rented and borrowed copies of these titles before, but I’m happy to finally own them for myself:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://amzn.com/081296389X&quot;&gt;&lt;em&gt;The New York Times Manual of Style&lt;/em&gt;&lt;/a&gt; — If you’re trying to do serious blogging, you should be keeping a personal style guide. Style guides are incredibly useful because they help keep your writing consistent. It doesn’t matter if you like the serial comma or if you spell website as two words, just make your &lt;a href=&quot;/style-guide&quot;&gt;editorial decisions consistent&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://amzn.com/020530902X&quot;&gt;&lt;em&gt;The Elements of Style, by Strunk and White&lt;/em&gt;&lt;/a&gt; — This book offers a wide variety of practical and technical tips on writing and grammar. I’ve seen this title referenced plenty of times throughout my college writing days, and, as a writer, I’m almost a little embarrassed that it has taken this long for me to obtain my own copy.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://amzn.com/0131103628&quot;&gt;&lt;em&gt;The C Programming Language, by Kernighan and Ritchie&lt;/em&gt;&lt;/a&gt; — What &lt;em&gt;The Elements of Style&lt;/em&gt; is to writing, &lt;em&gt;The C Programming Language&lt;/em&gt; is to programming. Kernighan and Ritchie’s book on the venerable C language is legendary for it’s pragmatic approach to programming. In addition to being a great reference, this book will also help me to acquaint myself with the “low level” technology stack, the fundamental base that powers most, if not all, computing devices.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2015/01/29/three-books.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/01/29/three-books.html</guid>
+      </item>
+    
+      <item>
+        <title>Wabi-sabi</title>
+        <description>&lt;p&gt;Through an odd series of events, which I will expand on another time, I went from owning an iPhone 5s to an iPhone 6 to my current iPhone 5.&lt;/p&gt;
+
+&lt;p&gt;Before this rapid iPhone transition, I had stayed on the near-cutting edge of iPhone releases. I liked owning the newest thing out of Cupertino, and every time I got the upgrade, I would tell myself that &lt;em&gt;this&lt;/em&gt; was the last one I needed for the next five years. However, it wouldn’t be more than six months, before I began imagining myself with the, then still rumored, next iPhone.&lt;/p&gt;
+
+&lt;p&gt;What a treadmill. It makes me somewhat sick to think about the amount of time that I’ve spent reading Apple rumor blogs, speculating about what my “next” thing was going to be. The line between tech enthusiasm and unhealthy consumer lusting became increasingly blurred.&lt;/p&gt;
+
+&lt;p&gt;So, you can imagine my surprise, as I upgraded, and then double-downgraded to the iPhone 5. At the time, in my mind, this setup would only be for a week, until I could get another iPhone 6. However, day after day, a week turned into four months.&lt;/p&gt;
+
+&lt;p&gt;How and why are fair questions to ask, and I’ve spent some time trying to figure out the answers. However, after stumbling back across Remy Labesque’s &lt;a href=&quot;http://designmind.frogdesign.com/blog/aged-to-perfection.html&quot;&gt;Aged to Perfection&lt;/a&gt; post, I realized why I was uncharacteristically OK with my current phone.&lt;/p&gt;
+
+&lt;p&gt;The Japanese concept of &lt;a href=&quot;http://en.wikipedia.org/wiki/Wabi-sabi&quot;&gt;Wabi-sabi&lt;/a&gt; is the world view of embracing the wear and tear of everyday things — of finding beauty in the natural aging process. Wabi-sabi directly contradicts our yearly tech upgrade cycle, but in turn, it gives a unique, very natural sense of peace, as our things become increasingly battered.&lt;/p&gt;
+
+&lt;p&gt;My iPhone 5 reflects the experiences of a full life. Scratches on the back aluminum, dents along the chamfered edge, and a slight discoloration of the rear Apple logo serve as a permanent reminder of the life I’ve lived so far with this rectangular slab of glass in my pocket.&lt;/p&gt;
+
+&lt;p&gt;It may sound incredibly conceited or #FirstWorldProblem-ish for me to write that I can manage with “just” an iPhone 5, and I concede to that interpretation. However, with that concession, I’m going to use this opportunity to encourage you to take a moment and contemplate where your own line of consumerism / enthusiasm lies. If you can’t find it, there is a chance that you’ve merged both doctrines into one easily-defendable lifestyle, which reinforces itself with every upgrade. That was me, anyhow.&lt;/p&gt;
+
+&lt;p&gt;My iPhone will, eventually, have to be replaced. However, until then, I remain pleasantly surprised in the amount of joy I get from seeing the aesthetic imperfections. Joy that, mind you, far exceeds anything I’ve felt while peeling plastic film off a mint-condition device.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2015/01/25/wabi-sabi.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/01/25/wabi-sabi.html</guid>
+      </item>
+    
+      <item>
+        <title>Big, Beautiful Images with CSS</title>
+        <description>&lt;p&gt;&lt;em&gt;Note: This isn’t a critique of The Newsprint’s design, which I very much like; rather, Mr. Ginter’s latest post just happened to be the reminder I needed to finish writing about this technique (sorry, Josh!).&lt;/em&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;If you love art-directed posts with great photography, check out Josh Ginter’s &lt;a href=&quot;http://thenewsprint.co&quot;&gt;The Newsprint&lt;/a&gt;. It has been fun to watch him develop as a photographer, and his accompanying articles keep getting better. Here’s how Mr. Ginter’s latest post, a &lt;a href=&quot;http://thenewsprint.co/2015/01/19/hobonichi-techo/&quot;&gt;photo review of the Hobonichi Techo planner&lt;/a&gt;, looks in Safari:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8655/16293073066_bec0012532_o_d.png&quot; alt=&quot;the newsprint&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The images look great, and Mr. Ginter &lt;a href=&quot;https://twitter.com/joshuaginter/status/557028869442916352&quot;&gt;alluded&lt;/a&gt; that this was some of his best photography work yet — I agree.&lt;/p&gt;
+
+&lt;p&gt;However, with photography this good, I’d love to see his images larger than the &lt;code&gt;width: 37rem;&lt;/code&gt; of the body text. A great example is to check out Andrew Kim’s excellent &lt;a href=&quot;http://www.minimallyminimal.com/&quot;&gt;Minimally Minimal&lt;/a&gt;, which really works to make his photos the main focus of the display. Particularly with macro shots, enlarging the images could really help us see the detail.&lt;/p&gt;
+
+&lt;p&gt;With that, I’d like to share a method that I have been using for a while, to accomplish a Markdown-based emphasized image design.&lt;/p&gt;
+
+&lt;h3 id=&quot;emphasized-markdown-images&quot;&gt;Emphasized Markdown Images&lt;/h3&gt;
+
+&lt;p&gt;Using The Newsprint’s &lt;code&gt;37rem&lt;/code&gt; as a base width, let’s make our images &lt;code&gt;14rem&lt;/code&gt; larger than the paragraph width and include an offset, so things are centered (note,  increase your image width by even numbers, so the offset is easy to calculate):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;img {
+  max-width: 51rem; // 37 + 14
+  margin-left: -7rem; // 14 / 2
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That leaves us with this:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7470/15696474814_132247c345_o_d.png&quot; alt=&quot;big goruck&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Nice and big.&lt;/p&gt;
+
+&lt;p&gt;But this isn’t ideal. Not all images are the same, and there may be some photographs that you want to show at the same width as the paragraph text. If we were using HTML, this would be easy: just attach a class to the &lt;code&gt;img&lt;/code&gt; element, and style it up in CSS. However, cluttering up my Markdown files with HTML elements is less than ideal, and I would rather use standard Markdown syntax to distinguish between the images I want large and small.&lt;/p&gt;
+
+&lt;p&gt;The solution is to apply the same Markdown syntax for emphasizing text (wrapping the text in underscores) to images. Our regular images will use the standard &lt;code&gt;![]()&lt;/code&gt; notation, while emphasized images can use &lt;code&gt;_![]()_&lt;/code&gt;, which will be formatted in HTML as &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;em&amp;gt;&amp;lt;img&amp;gt;&amp;lt;/em&amp;gt;&lt;/code&gt; respectfully.&lt;/p&gt;
+
+&lt;p&gt;Aside from being simple, this technique also makes contextual sense, because we’re &lt;em&gt;emphasizing&lt;/em&gt; the image.&lt;/p&gt;
+
+&lt;p&gt;Now that we’re generating two different tags for images, we can easily style the emphasized variant, by telling our CSS to only enlarge photos that are direct children of &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tags:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;img {
+  max-width: 100%; // fill parent&#39;s width
+}
+em img {
+  max-width: 51rem;
+  margin-left: -7rem;  
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, all regular images will now be constrained to the width of the paragraph text: &lt;code&gt;![an image](what-a-beauty.png)&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8668/15699003153_d84f251f7f_o_d.png&quot; alt=&quot;small goruck&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Unless we decide to include emphasis: &lt;code&gt;_![an emphasized image](what-a-beauty.png)_&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7470/15696474814_132247c345_o_d.png&quot; alt=&quot;big goruck&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our final task is to ensure things look good on smaller devices. Big images are nice on a desktop, but for mobile ones, the distinction is less important. We can accomplish this by using a media query, which will be trigged when the window width is slightly larger than our emphasized image (em img rem + 2):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@media screen and (max-width: 53rem) {
+  em img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Whenever a screen width gets close to that of our emphasized image, the media query rule will kick in, removing the negative margin and reseting our image’s width to fill the parent paragraph container.&lt;/p&gt;
+
+&lt;p&gt;There are plenty of ways to accomplish what I have here, but I like this method for two reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I get to use regular Markdown, without plug-ins or HTML elements.&lt;/li&gt;
+  &lt;li&gt;My text document looks sensible and retains contextual value. I’m literally emphasizing an image, by wrapping an image in emphasis.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it — nice and simple. Now please, if you haven’t, go read Mr. Ginter’s excellent &lt;a href=&quot;http://thenewsprint.co/2015/01/19/hobonichi-techo/&quot;&gt;review of the Hobonichi Techo planner&lt;/a&gt;, as I’ve spent enough time missing the forrest for the trees.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2015/01/19/beautiful-images-with-css.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/01/19/beautiful-images-with-css.html</guid>
+      </item>
+    
+      <item>
+        <title>Housekeeping</title>
+        <description>&lt;p&gt;The past few months have been great for AF. Readership has increased every week, and I’ve managed to&lt;/p&gt;
+
+&lt;h2 id=&quot;some-updates&quot;&gt;Some updates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New day / night theme, which can be activated by tapping on the sun icon, in the top right. If you’ve already seen this theme switcher, I encourage you to check it out again, because I just pushed tweaked versions of the color palettes, and I think they’re great.&lt;/li&gt;
+  &lt;li&gt;Signals now have their own homepage, which helps keep the front page focus on my long-form articles.&lt;/li&gt;
+  &lt;li&gt;Speaking of Signals, the publishing date will try to follow a MWF scheme. I try to be deliberate in what I share with each issue, so there may be some cases where there’s nothing worth bothering you with.&lt;/li&gt;
+  &lt;li&gt;One of my goals has been keeping the cost of this site low. To that end, I’ve dropped H&amp;amp;Co’s Whitney typeface, which was great, and I’ve switched to Open Sans; a font family that archives the geometric sans-serif look I was going for.&lt;/li&gt;
+  &lt;li&gt;This site is now published off of GitHub pages. Since GitHub has built-in support for Jekyll, the engine I use to publish here, it makes things easy. And free.&lt;/li&gt;
+  &lt;li&gt;AF is not my full-time job; rather, writing here is a labor of love. The content here will always be free, but I’m introducing something new, for those who want to help support the site (more later).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Jan 2015 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2015/01/12/notes.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2015/01/12/notes.html</guid>
+      </item>
+    
+      <item>
+        <title>Budgeting</title>
+        <description>&lt;p&gt;At its core, budgeting is setting aside money from each paycheck to go towards a specific goal or &lt;em&gt;category&lt;/em&gt; of expenses. That’s it. You get paid, you give those dollars a job, and then you only spend whatever you have saved for a particular category. To give you an idea of what this looks like, here are some of the categories that my wife and I have set up for our budget:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Eating out&lt;/li&gt;
+  &lt;li&gt;Groceries&lt;/li&gt;
+  &lt;li&gt;Car fuel&lt;/li&gt;
+  &lt;li&gt;Car repairs&lt;/li&gt;
+  &lt;li&gt;Fun (movies, clothing, apps)&lt;/li&gt;
+  &lt;li&gt;Cell phones&lt;/li&gt;
+  &lt;li&gt;Internet&lt;/li&gt;
+  &lt;li&gt;Summer vacation 2015&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Notice the mixture of month-to-month (eating out, groceries, fun) and long-term (summer vacation, car repairs) expenses. Also think about how bills (cell phones, internet) will be relatively consistent from month-to-month, while things like car repairs can vary in cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;categorizing-transactions&quot;&gt;Categorizing transactions&lt;/h2&gt;
+
+&lt;p&gt;The first step for any good budget is to figure out what you’re currently spending money on. To do this, it helps to group your transactions into categories.&lt;/p&gt;
+
+&lt;h3 id=&quot;master-categories&quot;&gt;Master categories&lt;/h3&gt;
+
+&lt;p&gt;All of your categories should fall under one of the three following “master categories.” Although grouping transactions into categories is useful, it helps to group those categories together, based on whether they’re things you &lt;em&gt;have&lt;/em&gt; to pay or not. Here’s what we currently use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed costs&lt;/strong&gt; — These are things that you have to pay for every month, like a cell phone bill or groceries, and the cost is relatively consistent month-to-month. This is also the master category for things that you have to pay for in a lump sum. Think about a six-month car insurance premium. If you know that in six months you’ll need to pay $600 to Geico, you can set aside $100 every month for this purpose. When it’s time to pay, you just pay it; no scrambling for cash.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Discretionary costs&lt;/strong&gt; — These are the general things that you pay for each month, but that you’re not obliged to buy. This master category accounts for things like going to the movies, your new hoodie, or going out to eat. The categories here are flexible, because you can reduce how much you spend each month, without missing important payments.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rainy day&lt;/strong&gt; — These are long-term expenses and things that you want to save for. An example: Christmas gifts are expensive, and you may not think about saving for them during the spring and summer. However, by tossing $10 into the Gifts category every month, you’ll have $120 to spend, come December!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So what are some categories that go into these master ones? Here’s what my wife and I have been using for the past several months:&lt;/p&gt;
+
+&lt;h3 id=&quot;fixed-costs&quot;&gt;Fixed costs&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Car fuel&lt;/li&gt;
+  &lt;li&gt;Car lease&lt;/li&gt;
+  &lt;li&gt;Car insurance&lt;/li&gt;
+  &lt;li&gt;Electric&lt;/li&gt;
+  &lt;li&gt;Gas&lt;/li&gt;
+  &lt;li&gt;Groceries&lt;/li&gt;
+  &lt;li&gt;Internet&lt;/li&gt;
+  &lt;li&gt;Phone&lt;/li&gt;
+  &lt;li&gt;Rent&lt;/li&gt;
+  &lt;li&gt;Rent insurance&lt;/li&gt;
+  &lt;li&gt;Student loan&lt;/li&gt;
+  &lt;li&gt;Subscriptions&lt;/li&gt;
+  &lt;li&gt;Tithing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;discretionary-costs&quot;&gt;Discretionary costs&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Charity&lt;/li&gt;
+  &lt;li&gt;Eating out&lt;/li&gt;
+  &lt;li&gt;Fun&lt;/li&gt;
+  &lt;li&gt;House&lt;/li&gt;
+  &lt;li&gt;Medical&lt;/li&gt;
+  &lt;li&gt;School + Work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rainy-day&quot;&gt;Rainy day&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Car repair&lt;/li&gt;
+  &lt;li&gt;Buffer*&lt;/li&gt;
+  &lt;li&gt;Gifts&lt;/li&gt;
+  &lt;li&gt;Vacation&lt;/li&gt;
+  &lt;li&gt;Nest Egg™**&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;No two budgets will be the same, but I think that the above categories are a good start for anyone who is relatively fresh out of college. Two special notes for our Buffer and Nest Egg™ categories:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Buffer&lt;/strong&gt; — The Buffer is just that: a special slush-fund to put any “extra” money in.  Think of it as a liquid-able savings account. The Buffer is nice, because it allows us to have a little wiggle room, if we ever go over in a particular category. For us, we’re trying to get our Buffer to the point where we have a month’s worth of funds inside.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Nest Egg™&lt;/strong&gt; — The Nest Egg is really just a placeholder for our long-term savings account. There is only one rule with the Nest Egg: you never, ever, touch the money inside. It’s the first category that we put money into, and it will be the last one we take money out of, which is why the Buffer is useful. The Nest Egg just sits there and grows. We’re trying to put a solid 15-20% of our income into the Nest Egg, and it’s already surprised me at how large it has grown after just six months.&lt;/p&gt;
+
+&lt;h2 id=&quot;credit-cards&quot;&gt;Credit cards&lt;/h2&gt;
+
+&lt;p&gt;When talking about a budget, it’s important to talk about credit cards. These little pieces of plastic make it easy to swipe and click our money away, but budgeting can help keep you out of credit card debt. Forever.&lt;/p&gt;
+
+&lt;p&gt;It’s simple: no matter where your money is located (credit card, savings account, checking account), you stick to your budget. Your budget is based on your income, so it doesn’t matter if you spend $20 on clothing with your credit card or a check. You’re only spending money that you intentionally set aside, which safeguards you from ever overspending.&lt;/p&gt;
+
+&lt;h2 id=&quot;spending-money&quot;&gt;Spending money&lt;/h2&gt;
+
+&lt;p&gt;When cash was more prevalent, a great way to budget was to have physical envelopes with the names of each category on them.  Whenever you got paid, you would then take that paycheck and divvy it up between the envelopes. When an envelope was empty, so was that category. I don’t see myself ever using this sort of system, but I know a few people who do (notably, &lt;a href=&quot;http://shawnblanc.net/2014/07/on-working-from-home-and-running-a-business/&quot;&gt;Shawn Blanc&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;For me — and a decent percentage of my generation, I’d wager — managing cash sucks; especially since most employers offer some form of direct deposit. For my wife and me, we find it much more convenient to access our money through our debit cards. However, this convenience needs to be kept in check, because it is easy to overspend in a category when you’re not dealing with a limited amount of cash.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-tech-and-apps&quot;&gt;The tech and apps&lt;/h2&gt;
+&lt;p&gt;Over the past 18 months, I’ve used a lot of different apps and websites to manage my money. I had used most of &lt;a href=&quot;http://thesweetsetup.com/apps/favorite-app-managing-personal-finances-budgets/&quot;&gt;The Sweet Setup’s Apps for Managing Personal Finance&lt;/a&gt; before that list existed, and I had even tried tracking everything by hand, in a big notebook. However, the tools I found the most success with were the ones that kept it simple and put the responsibility on me.&lt;/p&gt;
+
+&lt;p&gt;If you’re new to budgeting, I’d warn against any sort of app or website that promises to do much of the “budgeting” for you. More than a bunch of tools and apps, budgeting is a state of mind. Your goal is to become a good steward of your finances. That being said, there are some apps that I’ve found fit into this ideology nicely:&lt;/p&gt;
+
+&lt;h3 id=&quot;ynab&quot;&gt;YNAB&lt;/h3&gt;
+&lt;p&gt;You Need A Budget, affectionately known as YNAB, is a fantastic piece of software, with an even better online community. There are other “finance” apps out there, but most of them just help you &lt;em&gt;see&lt;/em&gt; your spending trends, not curb them.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Note: YNAB’s mobile apps are free, but they require the desktop app to sync with, which costs $60. College students can &lt;a href=&quot;http://www.youneedabudget.com/blog/2014/ynab-is-now-free-for-college-students/&quot;&gt;get it for free&lt;/a&gt;(!), but if you’re not in college, don’t let the price deter you. Using YNAB will help you save that $60 several times over, and it remains the best software investment I’ve ever made.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;YNAB doesn’t tie into your bank account, which means that it can’t automatically download your transactions. However, I find that this is a blessing in disguise. Being forced to manually enter all my purchases has the same psychological effect as using cash; you play an active role in the transferring of money, rather than a passive one.&lt;/p&gt;
+
+&lt;p&gt;YNAB also has some other neat features, like being able to see spending trends over time, which has proved useful in finding areas that we were spending money that we didn’t need to.&lt;/p&gt;
+
+&lt;h3 id=&quot;dropbox&quot;&gt;Dropbox&lt;/h3&gt;
+&lt;p&gt;YNAB is great on its own, but my wife and I share the same bank account, which means that there needs to be some way to sync our transactions. Thankfully, YNAB stores all its data in Dropbox. All I had to do (even though my wife and I have different Dropbox accounts) was share the YNAB folder between our two accounts, and everything stays up-to-date.&lt;/p&gt;
+
+&lt;h3 id=&quot;scanbot&quot;&gt;Scanbot&lt;/h3&gt;
+&lt;p&gt;If you budget for long enough, you’ll realize that entering in transactions on the day they occur is much easier than trying to reconcile a long list of line items from a bank statement. To ease this effort, it helps to start asking for receipts.&lt;/p&gt;
+
+&lt;p&gt;However, if you’re anything like me, you have over a decade of experience in abusing and losing receipts. My receipts will end up in coat pockets, car drink holders, and the bottom of my bag before they ever end up on my desk. Thankfully, there’s a wonderful little app called &lt;a href=&quot;https://itunes.apple.com/us/app/scanbot-document-scanner-qr/id834854351?mt=8&amp;amp;uo=4&amp;amp;at=10ltSa&quot;&gt;Scanbot&lt;/a&gt; (affiliate tag), which lets you quickly snap a picture of your receipt, and then it will automagically upload that image to Dropbox. All that’s left is to recycle the paper slip and smile.&lt;/p&gt;
+
+&lt;h3 id=&quot;numbers-excel-or-some-sort-of-spreadsheet&quot;&gt;Numbers, Excel, or some sort of spreadsheet&lt;/h3&gt;
+&lt;p&gt;Categories are great for making sure you don’t go over budget, but how do you figure out what the max amount for each category should be? Here’s where a good old fashioned spreadsheet comes into play. Using the categories above as a guide, you can map out your total expenses for a month, and then subtract that from your total income. From there, you can tweak the numbers, until you find a plan that fits your saving goals.&lt;/p&gt;
+
+&lt;p&gt;Plus, it’s always a little fun to change the &lt;code&gt;income&lt;/code&gt; field to $1 million every once in a while.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-about-you-and-your-money&quot;&gt;It’s about you and your money&lt;/h2&gt;
+&lt;p&gt;If you’ve never created a budget or thought about your finances before, this whole process could seem overwhelming. However, with just a month or two of effort, you’ll begin to feel a freedom and confidence that you may have never felt before.&lt;/p&gt;
+
+&lt;p&gt;That’s how it was for me. Over the course of my senior year, I went from dangerously inept with money to, what I feel is, very competent. My wife and I are saving our money, living within our means, and have established a lifestyle that has helped prepare us for any financial storms that may blow our way. I’m not an expert by any means, I still have a lot to learn about investments and retirement planning, but I feel well versed in the fundamentals and ready to learn more.&lt;/p&gt;
+
+&lt;p&gt;For me, budgeting is a lot like exercise. It’s something that, if done a couple times a week, will only help improve your life. I can’t promise that budgeting (and learning how to budget) involves less sweat than a 2-mile jog, but at the end, the results are the same: you feel good, your heart rate relaxes, and a sense of accomplishment permeates your day.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2014/12/12/budgeting.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2014/12/12/budgeting.html</guid>
+      </item>
+    
+      <item>
+        <title>Typed for Mac</title>
+        <description>&lt;p&gt;OS X does not need another Markdown text editor.&lt;/p&gt;
+
+&lt;p&gt;In fact, Macs already ship with the purest Markdown experience available: TextEdit in plain text mode. However, there are a number of alternatives that can make writing Markdown more convenient: iA Writer (and Pro), Byword, WriteRoom, Markdown Pro, Ulysses, LightPaper, and Mou to name a few.&lt;/p&gt;
+
+&lt;p&gt;Today, add Realmac Software’s &lt;a href=&quot;http://realmacsoftware.com/typed&quot;&gt;Typed&lt;/a&gt; to the list.&lt;/p&gt;
+
+&lt;p&gt;There isn’t a lot to distinguish Typed from the other minimalistic Markdown editors. However, there are two features that I appreciate: blank page quotes and the included soundtrack.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blank page quotes&lt;/strong&gt; — When opening a blank page in Typed, you are greeted with a quote, from an oft-cited author:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7547/15315472383_a07390e571_o_d.png&quot; alt=&quot;typed quotes&quot; /&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Soundtrack&lt;/strong&gt; — Typed ships with eight different music tracks. They’re instrumental, simple, and relaxing.; perfect for writing. If I ever stop using Typed, I’d seriously consider keeping the app open just to have these tracks available:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8629/15315472363_d83416f192_o_d.png&quot; alt=&quot;typed menu&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do either of these things matter though? Since iA Writer perfected the minimalistic Markdown editor, any new feature in Typed must add unadulterated value. I don’t know if the quotes and soundtrack add $20 worth of value, but I think these features hint at the two pillars of effective composition: 1.) a non-distracting environment, and 2.) a well-read, inspired mind.&lt;/p&gt;
+
+&lt;p&gt;For me, the music tracks in Typed remove the track-to-track transition of iTunes (or track-to-ad-to-track of Rdio), while the quotes provide just enough encouragement to handle my mild cases of apathy towards the whole writing craft. It’s a powerful formula.&lt;/p&gt;
+
+&lt;p&gt;Yes, all of the above could be replicated with custom playlist and a text file of inspiring anecdotes from writers better than yourself. And, I’d argue, most writers already have both of these things.&lt;/p&gt;
+
+&lt;p&gt;However, the longer you write, the more you realize that true moments of inspiration, the few honest seconds of self realization and reflection, are fragile and rare. Typed does its best to protect these ideals, which counts for something.&lt;/p&gt;
+
+&lt;p&gt;For now, I’ll type a few more letters into its window.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 02 Dec 2014 00:00:00 -0500</pubDate>
+        <link>http://audaciousfox.com/2014/12/02/typed-for-mac.html</link>
+        <guid isPermaLink="true">http://audaciousfox.com/2014/12/02/typed-for-mac.html</guid>
+      </item>
+    
+  </channel>
+</rss>
