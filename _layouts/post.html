@@ -1,6 +1,6 @@
 {% include head.html %} 
 {% include header.html %} 
-{% include navigation.html %}
+{% include sidebar.html %}
 {% assign author = site.data.authors[page.author] %}
 
 <section class="column column-page">  	
@@ -12,10 +12,6 @@
     {% endif %}
 	</header>
 	{{ content }}
-	<p class="post-meta">
-		Published {{ page.date | date: "%-d %B %Y" }}
-		{% if author %} by <a href="http://twitter.com/{{ author.twitter }}">{{ author.name }}</a>{% endif %}
-	</p>
 </section> 
 
 {% include footer.html %}
