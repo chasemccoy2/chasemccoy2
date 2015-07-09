@@ -461,6 +461,7 @@ h3 {
 .wrapper {
   max-width: 740px;
   min-width: 600px;
+  min-height: 100vh;
   margin: 0 auto;
   /*border-top: solid 16px $color; */
   border-right: solid 1px #bbb;
@@ -509,7 +510,7 @@ h3 {
   padding: 0 1rem; }
 
 .column-page {
-  width: 65%;
+  width: 60%;
   border-left: solid 1px #bbb; }
 
 article {
@@ -548,7 +549,7 @@ article {
   font-size: 14px;
   font-family: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
   line-height: 1.4em;
-  width: 35%; }
+  width: 40%; }
 
 .navigation {
   padding: 0; }
@@ -665,6 +666,10 @@ hr {
   figure img, .issue-header-text {
     margin-left: 0;
     max-width: 100%; } }
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+  .wrapper {
+    max-width: 640px; } }
 .night body {
   background: #3A3F43;
   color: #eeeeee; }

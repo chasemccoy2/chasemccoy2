@@ -88,6 +88,7 @@ h3 {
 .wrapper {
   max-width: $max-width;
   min-width: 600px;
+  min-height: 100vh;
   margin: 0 auto;
   /*border-top: solid 16px $color; */
   border-right: solid 1px $color-hover;
@@ -143,7 +144,7 @@ h3 {
 }
 
 .column-page {
-	width: 65%; 
+	width: 60%; 
 	border-left: solid 1px $color-hover;
 }
 
@@ -195,7 +196,7 @@ article {
   font-size: 14px; 
   font-family: $sans;
   line-height: 1.4em; 
-	width: 35%;
+	width: 40%;
 }
 
 .navigation {
