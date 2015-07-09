@@ -519,7 +519,7 @@ h3 {
   padding: 0 1rem; }
 
 .column-page {
-  width: 80%;
+  width: 75%;
   border-left: solid 1px #bbb; }
 
 article {
@@ -559,7 +559,7 @@ article {
   font-size: 14px;
   font-family: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
   line-height: 1.4em;
-  width: 20%; }
+  width: 25%; }
 
 .navigation {
   padding: 0; }
