@@ -11,16 +11,6 @@ layout: null
 
 {% include header.html %} 
 
-
-<section class="asides">
-	<ul class="asides-list">
-		<li><h2 class="section-header">The Asides</h2><em>Interesting hypertext tidbits.</em></li>
-		{% for post in site.categories.asides limit:15 %}
-			 <li><a class="asides-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.author}} {{ post.date | date: "%b %d" }}</a> &middot; {{ post.content | remove: '<p>' | remove: '</p>' }} </li>
-	 	{% endfor %}
-	</ul>
-</section>
-
 <section class="column">  	
 	<h2 class="section-header">The Column</h2> 	
 	{% for post in site.categories.columns limit:2 %}
@@ -45,6 +35,15 @@ layout: null
 	{% endfor %}
 	</ul>
 </section> 
+
+<section class="asides">
+	<ul class="asides-list">
+		<li><h2 class="section-header">The Asides</h2><em>Interesting hypertext tidbits.</em></li>
+		{% for post in site.categories.asides limit:15 %}
+			 <li><a class="asides-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.author}} {{ post.date | date: "%b %d" }}</a> &middot; {{ post.content | remove: '<p>' | remove: '</p>' }} </li>
+	 	{% endfor %}
+	</ul>
+</section>
 
 
 

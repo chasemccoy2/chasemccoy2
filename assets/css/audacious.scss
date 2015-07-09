@@ -90,6 +90,8 @@ h3 {
   min-width: 700px;
   margin: 0 auto;
   /*border-top: solid 16px $color; */
+  border-right: solid 1px $color-hover;
+  border-left: solid 1px $color-hover;
 }
 
 .header {
@@ -169,7 +171,6 @@ article {
 
 .asides {
 	border-left: solid 1px $color-hover;
-	border-right: solid 1px $color-hover;
   width: 35%; 
   min-height: 100vh; 
   float: left; 
@@ -232,6 +233,7 @@ article {
   font-family: $sans;
   color: #aaa; 
   font-size: .8rem; 
+  padding: 0 0 0.5em 1em; 
 }
 
 img {
