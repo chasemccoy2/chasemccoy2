@@ -145,7 +145,7 @@ h3 {
 
 .column-page {
 	width: 60%; 
-	border-left: solid 1px $color-hover;
+	border-right: solid 1px $color-hover;
 }
 
 article {
@@ -191,7 +191,7 @@ article {
 
 .sidebar {
   float: left; 
-  text-align: right;
+  text-align: left;
   padding: 0 1rem; 
   font-size: 14px; 
   font-family: $sans;

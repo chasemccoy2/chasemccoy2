@@ -511,7 +511,7 @@ h3 {
 
 .column-page {
   width: 60%;
-  border-left: solid 1px #bbb; }
+  border-right: solid 1px #bbb; }
 
 article {
   padding-bottom: 1em; }
@@ -544,7 +544,7 @@ article {
 
 .sidebar {
   float: left;
-  text-align: right;
+  text-align: left;
   padding: 0 1rem;
   font-size: 14px;
   font-family: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
