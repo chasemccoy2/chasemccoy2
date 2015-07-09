@@ -672,7 +672,7 @@ hr {
 
 @media (max-width: 890px) {
   .wrapper {
-    margin: 1rem; }
+    margin: 0 1rem; }
 
   figure img, .issue-header-text {
     margin-left: 0;
