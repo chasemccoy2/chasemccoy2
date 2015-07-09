@@ -518,6 +518,7 @@ article {
 
 .asides {
   border-left: solid 1px #bbb;
+  border-bottom: solid 1px #bbb;
   width: 40%;
   min-height: 100vh;
   float: left;
