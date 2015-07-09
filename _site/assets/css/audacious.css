@@ -525,7 +525,7 @@ h3 {
 article {
   padding-bottom: 1em; }
 
-.signals {
+.asides {
   border-left: solid 1px #bbb;
   border-right: solid 1px #bbb;
   width: 35%;
@@ -536,19 +536,19 @@ article {
   font-family: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
   line-height: 1.45em; }
 
-.signals-list {
+.asides-list {
   padding: 0;
   margin: 1rem 0; }
-  .signals-list li {
+  .asides-list li {
     border-bottom: 1px solid #bbb;
     list-style: none;
     padding: 1rem; }
-    .signals-list li:first-child {
+    .asides-list li:first-child {
       padding-top: 0; }
-    .signals-list li:last-child {
+    .asides-list li:last-child {
       border-bottom: none; }
 
-.signals-meta {
+.asides-meta {
   color: #888;
   text-decoration: none; }
 
@@ -607,6 +607,12 @@ figure {
   .post-meta a {
     color: #aaa; }
 
+h2.issue-meta {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #a8a8a8; }
+
 .archive-list-date {
   display: block;
   font-family: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
@@ -652,6 +658,9 @@ blockquote {
   padding-left: .5em;
   font-style: italic; }
 
+iframe {
+  max-width: 100%; }
+
 hr {
   width: 100%;
   margin: 1.5rem auto;
@@ -671,9 +680,9 @@ hr {
   color: #eeeeee; }
 .night .wrapper {
   border-color: #79BD9A; }
-.night .column-page, .night .signals, .night .signals li, .night .header {
+.night .column-page, .night .asides, .night .asides li, .night .header {
   border-color: #7f7f7f; }
-.night .signals-meta {
+.night .asides-meta {
   color: #a8a8a8; }
 .night a {
   color: #79BD9A; }

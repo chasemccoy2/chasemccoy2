@@ -164,10 +164,10 @@ article {
 }
 
 // 
-// SIGNALS 
+// asides 
 // 
 
-.signals {
+.asides {
 	border-left: solid 1px $color-hover;
 	border-right: solid 1px $color-hover;
   width: 35%; 
@@ -178,7 +178,7 @@ article {
   font-family: $sans;
   line-height: 1.45em; 
 }
-.signals-list {
+.asides-list {
   padding: 0; 
   margin: 1rem 0; 
   li {
@@ -189,7 +189,7 @@ article {
 		&:last-child { border-bottom: none; }
   }
 }
-.signals-meta {
+.asides-meta {
   color: #888; 
   text-decoration: none; 
 }
@@ -266,6 +266,13 @@ figure {
   a { color: #aaa; }
 }
 
+h2.issue-meta {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: $night-color-faded;
+}
+
 .archive-list-date {
   display: block; 
   font-family: $sans; 
@@ -321,6 +328,10 @@ blockquote {
   //border-left: 1px solid #ccc; 
 }
 
+iframe {
+  max-width: 100%;
+}
+
 
 hr {
   // background-color: $color-hover;
@@ -348,8 +359,8 @@ hr {
   }
   
   .wrapper { border-color: $night-color; }
-  .column-page, .signals, .signals li, .header { border-color: #7f7f7f; }
-  .signals-meta { color: $night-color-faded; }
+  .column-page, .asides, .asides li, .header { border-color: #7f7f7f; }
+  .asides-meta { color: $night-color-faded; }
   a {
     color: $night-color; 
     &:hover { color: $night-color-light; }
