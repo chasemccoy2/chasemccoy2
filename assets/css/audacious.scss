@@ -342,6 +342,13 @@ hr {
   }
 }
 
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+  .wrapper {
+    max-width: $max-width - 100px;
+  }
+}
+
 .night {
   body {
     background: #3A3F43; 
