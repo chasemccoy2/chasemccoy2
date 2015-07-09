@@ -459,8 +459,8 @@ h3 {
     margin-top: .5rem; }
 
 .wrapper {
-  max-width: 840px;
-  min-width: 700px;
+  max-width: 740px;
+  min-width: 600px;
   margin: 0 auto;
   /*border-top: solid 16px $color; */
   border-right: solid 1px #bbb;
@@ -595,7 +595,7 @@ figure {
 
 .header-image {
   margin: 0;
-  max-width: 840px; }
+  max-width: 740px; }
 
 .clearfix {
   clear: both; }
@@ -670,7 +670,7 @@ hr {
   height: 0px;
   border-bottom: 1px dotted #bbb; }
 
-@media (max-width: 890px) {
+@media (max-width: 790px) {
   .wrapper {
     margin: 0 1rem; }
 

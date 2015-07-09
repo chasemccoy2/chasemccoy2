@@ -34,7 +34,7 @@ $color-faded: #9fa4a8;
 $color-hover: #bbb;
 $serif: Georgia, serif;
 $sans: "San Francisco Text", "Clear Sans", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
-$max-width: 840px;
+$max-width: 740px;
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -87,7 +87,7 @@ h3 {
 
 .wrapper {
   max-width: $max-width;
-  min-width: 700px;
+  min-width: 600px;
   margin: 0 auto;
   /*border-top: solid 16px $color; */
   border-right: solid 1px $color-hover;
