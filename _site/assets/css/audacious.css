@@ -516,7 +516,7 @@ h3 {
   letter-spacing: 1px; }
 
 .column {
-  width: 65%;
+  width: 60%;
   float: left;
   padding: 0 1rem; }
 
@@ -529,7 +529,7 @@ article {
 
 .asides {
   border-left: solid 1px #bbb;
-  width: 35%;
+  width: 40%;
   min-height: 100vh;
   float: left;
   padding: 0;
