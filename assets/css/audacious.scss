@@ -157,7 +157,7 @@ h3 {
 }
 
 .column-page {
-	width: 75%; 
+	width: 65%; 
 	border-left: solid 1px $color-hover;
 }
 
@@ -179,6 +179,7 @@ article {
   font-family: $sans;
   line-height: 1.45em; 
 }
+
 .asides-list {
   padding: 0; 
   margin: 1rem 0; 
@@ -190,6 +191,7 @@ article {
 		&:last-child { border-bottom: none; }
   }
 }
+
 .asides-meta {
   color: #888; 
   text-decoration: none; 
@@ -207,7 +209,7 @@ article {
   font-size: 14px; 
   font-family: $sans;
   line-height: 1.4em; 
-	width: 25%;
+	width: 35%;
 }
 
 .navigation {
