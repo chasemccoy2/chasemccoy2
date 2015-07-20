@@ -1,9 +1,9 @@
 # Site settings
 title: "The Owlery"
 email: "chasem000@gmail.com"
-description: "A hyperlink odyssey."
-url: "http://chasemccoy2.github.io" 
-permalink: /:year/:month/:title.html
+description: "Liberal arts, in your browser."
+url: "http://audaciousfox.com" # the base hostname & protocol for your site
+permalink: /:year/:month/:day/:title.html
 timezone: America/New_York
 
 # Build settings
@@ -36,7 +36,7 @@ defaults:
 
 jekyll-archives:
   enabled: [year, month, day]
-  layout: 'default'
+  layout: 'default' #'archive'
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
