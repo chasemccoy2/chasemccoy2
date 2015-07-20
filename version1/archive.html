@@ -1,0 +1,28 @@
+---
+title: Archive
+layout: page
+permalink: /archive/
+---
+<p>Last time, on Audacious Fox.</p>
+
+
+<h2>Editorials</h2>
+<ul class="archive-list">
+{% for post in site.categories.columns %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-list-date">{{ post.date | date: "%b %d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>
+
+
+<h2>Asides</h2>
+<ul class="archive-list">
+{% for post in site.categories.asides %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-list-date">{{ post.date | date: "%b %d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>

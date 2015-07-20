@@ -1,0 +1,52 @@
+---
+layout: null
+---
+
+{% include head.html %} 
+
+<figure style="display: none;">
+	<img class="header-image" src="">
+	<figcaption>We made waffles, here's <a href="/">the recipe</a>.</figcaption>
+</figure>
+
+{% include header.html %} 
+
+<section class="column">  	
+	<h2 class="section-header">The Column</h2> 	
+	{% for post in site.categories.columns limit:2 %}
+		<article>
+			<header class="issue-header">
+				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+			</header>
+			{{ post.content }}
+			<h2 class="issue-meta">{{ post.date | date: "%B %-d %Y" }}</h2>
+		</article>
+	{% endfor %}
+	
+	<hr class="large-break">
+
+	<p>Previously: </p>
+	<ul>
+	{% for post in site.categories.columns offset:2 limit: 5 %}
+		<li class="archive-list-item">
+			<span class="archive-list-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+			<span class="archive-list-date">{{ post.date | date: "%-d %B %Y" }}</span>
+		</li>
+	{% endfor %}
+	</ul>
+</section> 
+
+<section class="asides">
+	<ul class="asides-list">
+		<li><h2 class="section-header">The Asides</h2><em>Interesting hypertext tidbits.</em></li>
+		{% for post in site.categories.asides limit:15 %}
+			 <li><a class="asides-meta" href="{{ post.url | prepend: site.baseurl }}"> {{ post.author}} {{ post.date | date: "%b %d" }}</a> &middot; {{ post.content | remove: '<p>' | remove: '</p>' }} </li>
+	 	{% endfor %}
+	 	<li><em>Check out the archives for more</em></li>
+	</ul>
+</section>
+
+
+
+
+{% include footer.html %}
