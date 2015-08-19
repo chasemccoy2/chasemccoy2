@@ -21,12 +21,13 @@ $sans: "San Francisco Text", system-font, -webkit-system-font, -apple-system-fon
       ".SFNSDisplay-Regular", "Helvetica Neue", "Helvetica", "Segoe UI", Verdana, Arial;
 
 $content-width: 700px;
+$font-size: 17px;
 
 /* Box sizing makes the hight/width include borders,
    margins, padding, etc. */
 html {
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: $font-size;
 }
 
 *, *:before, *:after {
@@ -199,6 +200,7 @@ a.more {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+  $font-size: 22px;
   html {
     font-size: 20px;
   }
