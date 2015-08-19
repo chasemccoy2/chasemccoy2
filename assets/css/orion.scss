@@ -323,12 +323,15 @@ ul.archive-list {
     // max-width: $content-width - 100px;
     max-width: 100%;
   }
-  .header, .title, .navigation { min-height: 260px; }
+  .header, .title, .navigation, .footer, .footer-right, .footer-left { min-height: 260px; }
   .title { padding: 2.0rem 0 0 0; }
+  .tagline { font-size: 0.7rem; }
   .navigation { padding: 0.5rem 0 0 0; }
+  .footer-right { padding: 0.7rem 0 0 0; }
   .nav li { margin: 0; }
   .tagline { font-size: 1.0rem; }
-  .column-page {
-    width: 65%;
-  }
+  .column { padding: 0 0.3rem 0 0.5rem; }
+  .column-page { width: 65%; }
+  .asides-list li { padding: 0.7rem; }
+  h1 { line-height: 1.7rem; }
 }
