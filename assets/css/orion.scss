@@ -192,27 +192,6 @@ a.more {
   text-align: center;
 }
 
-@media (max-width: $content-width + 50px) {
-  .wrapper {
-    margin: 0 1rem;
-  }
-}
-
-/* iPhone [portrait + landscape] */
-@media only screen and (max-device-width: 480px) {
-  .wrapper {
-    // max-width: $content-width - 100px;
-    max-width: 100%;
-    margin: 0;
-  }
-  .site-title {
-    font-size: 2.5rem;
-  }
-  .column-page {
-    width: 65%;
-  }
-}
-
 /*
 // PAGE ELEMENTS
 */
@@ -329,4 +308,25 @@ ul.archive-list {
   display: block;
   margin: 0;
   line-height: 1rem;
+}
+
+@media (max-width: $content-width + 50px) {
+  .wrapper {
+    margin: 0 1rem;
+  }
+}
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+  html { font-size: 34px; }
+  .wrapper {
+    // max-width: $content-width - 100px;
+    max-width: 100%;
+  }
+  .header .title .navigation { min-height: 200px; }
+  .nav li { margin: 0; }
+  .tagline { font-size: 1.0rem; }
+  .column-page {
+    width: 65%;
+  }
 }
