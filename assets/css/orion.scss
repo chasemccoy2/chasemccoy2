@@ -323,7 +323,7 @@ ul.archive-list {
     // max-width: $content-width - 100px;
     max-width: 100%;
   }
-  .header .title .navigation { min-height: 260px; }
+  .header, .title, .navigation { min-height: 260px; }
   .title { padding: 2.0rem 0 0 0; }
   .navigation { padding: 0.5rem 0 0 0; }
   .nav li { margin: 0; }
