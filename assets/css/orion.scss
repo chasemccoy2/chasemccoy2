@@ -199,6 +199,9 @@ a.more {
 
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
+  html {
+    font-size: 19px;
+  }
   .wrapper {
     max-width: $content-width - 100px;
   }
