@@ -333,7 +333,8 @@ ul.archive-list {
   .navigation { padding: 0.5rem 0 0 0; }
   .footer-right { padding: 0.7rem 0 0 0; }
   .nav li { margin: 0; }
-  .column { padding: 0 0.3rem 0 0.5rem; }
+  .column { width: 58%; padding: 0 0.2rem 0 0.9rem; }
+  .asides { width: 42%; }
   .column-page {
     width: 90%;
     font-size: 1.4rem;
