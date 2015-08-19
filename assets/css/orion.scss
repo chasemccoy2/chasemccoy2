@@ -200,7 +200,7 @@ a.more {
 /* iPhone [portrait + landscape] */
 @media only screen and (max-device-width: 480px) {
   .wrapper {
-    max-width: 100%;
+    max-width: $content-width - 100px;
   }
   .column-page {
     width: 50%;
