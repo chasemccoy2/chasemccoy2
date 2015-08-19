@@ -8,13 +8,16 @@
 // VARIABLES
 */
 
-$accent-color: #CF3721;
-$text-color: #2A2A2A;
+/* $accent-color: #CF3721; */
+$accent-color: #cf3a21;
+$text-color: #bebbb7;
 $light-color: lighten($accent-color, 15%);
 $dark-color: darken($accent-color, 15%);
-$bg-color: #FFFFFF;
-$color-subtle: #BBB;
-$gray-color: #969696;
+/* $bg-color: #30302d; */
+$bg-color: #3a3b3d;
+/* $color-subtle: #727272; */
+$color-subtle: #5c5b59;
+$gray-color: #5c5b59;
 
 $serif: Georgia, serif;
 $sans: "San Francisco Text", system-font, -webkit-system-font, -apple-system-font,
@@ -39,6 +42,7 @@ body {
   font-weight: normal;
   line-height: 1.6rem;
   -webkit-font-smoothing: antialiased;
+  background-color: $bg-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
