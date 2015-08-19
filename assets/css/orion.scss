@@ -333,7 +333,6 @@ ul.archive-list {
   .navigation { padding: 0.5rem 0 0 0; }
   .footer-right { padding: 0.7rem 0 0 0; }
   .nav li { margin: 0; }
-  .tagline { font-size: 1.0rem; }
   .column { padding: 0 0.3rem 0 0.5rem; }
   .column-page {
     width: 90%;
@@ -343,6 +342,6 @@ ul.archive-list {
   }
   .asides-list li { padding: 0.7rem; }
   h1 { line-height: 1.7rem; }
-  h1.column-page { font-size: 2.0rem; }
+  .column-page h1 { font-size: 2.0rem; }
   .post-meta { font-size: 1.0rem; }
 }
