@@ -7,6 +7,7 @@ categories:
   - Apple
   - Technology
 ---
+
 Apple has a lot going on right now with the Apple Watch, new MacBook, ResearchKit, Apple TV, and of course WWDC right around the corner. However, they&#8217;ve managed to adopt a new technology really quickly that I think is the most exciting thing happening at the moment technology-wise. That thing is Force Touch and the Taptic Engine.
 
 First introduced with the [Apple Watch][1], Force Touch is a new technology that let&#8217;s touch sensitive surfaces detect and recognize varying amounts and types of pressure. For example, force touching the screen of the Watch lets the user access contextual options. Additionally, the Taptic Engine is a new haptic feedback mechanism that can provide very realistic feedback. An example of this is when you get a notification on the Watch and it taps your wrist to let you know.
@@ -26,6 +27,12 @@ I think that these technologies are really important for Apple. I have no doubts
 Can you imagine? Tapping a button in an iOS app feeling the sensation of pressing a real-life button is *huge*. Not to mention tactile responses when dragging and selecting in apps, or feeling textures in games. And Force Touch will give us a whole new way to interact with iOS. Plus, force sensitive drawing could make the iPad the best drawing tablet on the market.
 
 Apple&#8217;s touch and tap technologies came out of nowhere fast. I don&#8217;t think people quite understand yet how important this will be to changing digital interfaces. We have always been able to use touch to interact with our devices, but they have never really been able to use touch to interact with us. I am very excited to see how we will be using our devices in a year or two.
+
+{% highlight objc linenos %}
+- (UIEdgeInsets)widgetMarginInsetsForProposedMarginInsets:(UIEdgeInsets)defaultMarginInsets {
+  return UIEdgeInsetsZero;
+}
+{% endhighlight %}
 
  [1]: http://www.apple.com/watch/
  [2]: http://www.apple.com/macbook/

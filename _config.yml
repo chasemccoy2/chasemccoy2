@@ -2,7 +2,7 @@
 title: "The Owlery"
 email: "chasem000@gmail.com"
 description: "A hyperlink odyssey."
-url: "http://chasemccoy2.github.io" 
+url: "http://chasemccoy2.github.io"
 permalink: /:year/:month/:title.html
 timezone: America/New_York
 
@@ -10,7 +10,7 @@ timezone: America/New_York
 markdown: kramdown
 
 highlighter: pygments
-excerpt_separator: "<!-- more -->"
+excerpt_separator: "\n\n"
 
 defaults:
   -
