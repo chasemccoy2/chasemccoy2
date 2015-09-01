@@ -40,7 +40,7 @@ layout: null
 	{% for post in site.categories.asides limit:15 %}
 			 <li>{{ post.content | remove: '<p>' | remove: '</p>' }} &nbsp; <a class="asides-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a> </li>
 	{% endfor %}
-	<li><em>Check out the archives for more.</em></li>
+	<li><em>Subscribe to the <a href="/rss">RSS feeds</a>.</em></li>
 	</ul>
 </section>
 
