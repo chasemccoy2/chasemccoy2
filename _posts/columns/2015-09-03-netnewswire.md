@@ -1,5 +1,6 @@
 ---
 title: The New NetNewsWire
+excerpt: I remember when RSS was a big deal.
 ---
 
 I remember when RSS was a big deal. When subscribing to your favorite sites was a joy, and everyone got their news from their favorite RSS reader. Then Google Reader shut down, and Twitter came along, and now RSS isn’t what it used to be.
