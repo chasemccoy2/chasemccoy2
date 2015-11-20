@@ -1,54 +1,104 @@
 ---
 layout: null
+title: The Owlery
 ---
 
 {% include head.html %}
 
+<div id="wrapper">
 {% include header.html %}
+<div class="content">
 
-<section class="column">
-	<h2 class="section-title">The Column</h2>
-	{% for post in site.categories.columns limit:4 %}
-		<article>
-			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			<h2 class="post-meta">{{ post.date | date: "%B %-d %Y" }}</h2>
-			<!-- {{ post.content }} -->
-			<p>
-				{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-				<a href="{{ post.url }}" class="more">Continue reading...</a>
-			</p>
-		</article>
+  <div class="sectionDivider">
+    <span style="background-color: white; position: relative; top: -1.2em;" class="sectionHeader">
+      The Asides
+    </span>
+  </div>
+
+  {% for post in site.categories.asides limit:4 %}
+	   <article class="aside">
+       <p>
+         {{ post.content | remove: '<p>' | remove: '</p>'}}
+         <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+      </p>
+     </article>
+     {% if forloop.index != 4 %}
+        <hr class="asidesSeperator">
+     {% endif %}
 	{% endfor %}
 
-	<hr class="short">
-	<ul class="previous-post">
-	{% for post in site.categories.columns offset:4 limit: 5 %}
-		<li class="previous-post">
-			<span class="previous-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-			<span class="previous-date">{{ post.date | date: "%B %-d %Y" }}</span>
+  <br>
+
+  <div class="sectionDivider">
+    <span style="background-color: white; position: relative; top: -1.2em;" class="sectionHeader">
+      The Column
+    </span>
+  </div>
+
+  {% for post in site.categories.columns limit:2 %}
+    <article class="column">
+      {% if post.image %}
+        <div id="previewImage" style="background-image: url({{ site.url }}assets/img/{{ post.image }})">
+          <div class="overlay"></div>
+          <div class="heroContent aboveOverlay heroPreview">
+            <h2 class="postTitle" style="font-size: 2.5rem; line-height: 2.7rem;"><a href="{{ post.url }}" class="white">{{ post.title }}</a></h2>
+            <span class="postDate white" style="font-size: 0.8rem;">{{ post.date | date: "%B %-d %Y" }}</span>
+          </div>
+        </div>
+      {% else %}
+        <h2 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="postDate">{{ post.date | date: "%B %-d %Y" }}</span>
+      {% endif %}
+
+      {{ post.content }}
+    </article>
+  {% endfor %}
+
+  <div class="sectionDivider" style="width: 50%; margin: 0 auto;">
+    <span style="background-color: white; position: relative; top: -1.2em;" class="sectionHeader">
+      Previous Posts
+    </span>
+  </div>
+
+  <ul class="previousPosts">
+	{% for post in site.categories.columns offset:2 limit: 5 %}
+		<li class="previousPost">
+			<h2 class="postTitle previousTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<span class="postDate previousDate">{{ post.date | date: "%B %-d %Y" }}</span>
 		</li>
 	{% endfor %}
 	</ul>
-	<hr class="short">
 
-</section>
+  <div class="sectionDivider">
+    <span style="background-color: white; position: relative; top: -1.2em;" class="sectionHeader">
+      Latest Quote
+    </span>
+  </div>
 
-<section class="asides">
-	<ul class="asides-list">
-	<li><h2 class="section-title">The Asides</h2>
-	<em>Interesting hypertext tidbits.</em></li>
-	{% for post in site.categories.asides limit:15 %}
-			 <li>{{ post.content | remove: '<p>' | remove: '</p>' }} &nbsp; <a class="asides-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a> </li>
+  {% for post in site.categories.quotes limit:1 %}
+	   <article class="quote">
+       <p class="quoteText">
+         “{{ post.content | remove: '<p>' | remove: '</p>'}}”
+       </p>
+       <p class="quoteSource">— {{ post.source }}</p>
+     </article>
 	{% endfor %}
-	<li><em>Subscribe to the <a href="/rss">RSS feeds</a>.</em></li>
-	</ul>
-</section>
 
-<!-- 	{% for posts in site.categories.asides limit:15 %}
-		<li>{{ post.content | remove: '<p>' | remove: '</p>' }} &middot; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date }}</a></li>
-	{% endfor %} -->
+  <div class="sectionDivider"></div>
 
+  {% for post in site.categories.asides offset:4 limit:15 %}
+	   <article class="aside">
+       <p>
+         {{ post.content | remove: '<p>' | remove: '</p>'}}
+         <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+      </p>
+     </article>
+     {% if forloop.index != 15 %}
+        <hr class="asidesSeperator">
+     {% endif %}
+	{% endfor %}
 
-
+</div> <!-- end content -->
 
 {% include footer.html %}
+</div> <!-- end wrapper -->

@@ -1,20 +1,39 @@
+---
+layout: null
+---
+
 {% include head.html %}
-{% include header.html %}
 
-<section class="column column-page">
-  {% if page.linked_list_url %}
-    <h1><a href="{{ page.linked_list_url }}">{{ page.title }} -></a></h1>
-  {% else %}
-    <h1>{{ page.title }}</h1>
-  {% endif %}
-  <h2 class="post-meta">
-		{% if page.id %}
-			Published {{ page.date | date: "%B %-d %Y" }}
-		{% endif %}
-	</h2>
-	{{ content }}
-</section>
+{% if page.image %}
+  <div id="headerImage" style="background-image: url({{ site.url }}assets/img/{{ page.image }})">
+    <div class="overlay"></div>
+    <h1 class="siteTitle cornerTitle aboveOverlay"><a href="{{ site.url }}">The Owlery</a></h1>
 
-<!-- {% include sidebar.html %} -->
+    <div class="heroContent aboveOverlay">
+      <h2 class="postTitle white" style="font-size: 3.0rem; line-height: 3.0rem;">{{ page.title }}</h2>
+      <span class="postDate white" style="font-size: 0.9rem;">{{ page.date | date: "%B %-d %Y" }}</span>
+    </div>
+  </div>
+  <div id="wrapper">
+
+  <div class="content">
+    <article>
+{% else %}
+  <div id="wrapper">
+  {% include header.html %}
+
+  <div class="content">
+
+    <article>
+      <h2 class="postTitle">{{ page.title }}</h2>
+      <span class="postDate">{{ page.date | date: "%B %-d %Y" }}</span>
+{% endif %}
+
+    {{ page.content | markdownify }}
+  </article>
+
+</div> <!-- end content -->
+
 
 {% include footer.html %}
+</div> <!-- end wrapper -->
