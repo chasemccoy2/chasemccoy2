@@ -38,7 +38,7 @@ title: The Owlery
   {% for post in site.categories.columns limit:2 %}
     <article class="column">
       {% if post.image %}
-        <div id="previewImage" style="background-image: url({{ site.url }}assets/img/{{ post.image }})">
+        <div id="previewImage" style="background-image: url(/assets/img/{{ post.image }})">
           <div class="overlay"></div>
           <div class="heroContent aboveOverlay heroPreview">
             <h2 class="postTitle" style="font-size: 2.5rem; line-height: 2.7rem;"><a href="{{ post.url }}" class="white">{{ post.title }}</a></h2>
