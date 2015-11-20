@@ -87,7 +87,7 @@ article.quote {
 }
 
 .heroPreview {
-  width: 98%;
+  width: 95%;
 }
 
 
@@ -327,7 +327,8 @@ img {
   }
 
   .heroContent {
-    width: 95%;
+    width: 98%;
+    padding: 0;
   }
 
   img {
