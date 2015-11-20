@@ -308,6 +308,11 @@ img {
     padding: 0;
   }
 
+  .sectionDivider {
+    margin: 0 0 2rem -15px;
+    width: 100vw;
+  }
+
   #previewImage {
     max-width: 100vw;
     margin-left: -15px;
