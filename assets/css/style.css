@@ -200,6 +200,7 @@ span.sectionHeader {
   text-transform: uppercase;
   font-size: 0.8rem;
   color: #d13636;
+  font-weight: bold;
 }
 
 .sectionDivider {
