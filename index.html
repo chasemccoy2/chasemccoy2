@@ -15,17 +15,36 @@ title: The Owlery
     </span>
   </div>
 
-  {% for post in site.categories.asides limit:4 %}
-	   <article class="aside">
-       <p>
-         {{ post.content | remove: '<p>' | remove: '</p>'}}
-         <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-      </p>
-     </article>
-     {% if forloop.index != 4 %}
-        <hr class="asidesSeperator">
-     {% endif %}
-	{% endfor %}
+  <div class="asides">
+    <div class="asides-left">
+      {% for post in site.categories.asides limit:4 %}
+    	   <article class="aside">
+           <p>
+             {{ post.content | remove: '<p>' | remove: '</p>'}}
+             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+          </p>
+         </article>
+         {% if forloop.index != 4 %}
+            <hr class="asidesSeperator">
+         {% endif %}
+    	{% endfor %}
+    </div>
+    <hr class="asidesSeperator mobileOnly">
+    <div class="asides-right">
+      {% for post in site.categories.asides offset:4 limit:4 %}
+    	   <article class="aside">
+           <p>
+             {{ post.content | remove: '<p>' | remove: '</p>'}}
+             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+          </p>
+         </article>
+         {% if forloop.index != 4 %}
+            <hr class="asidesSeperator">
+         {% endif %}
+    	{% endfor %}
+    </div>
+    <div class="clearfix"></div>
+  </div>
 
   <br>
 
@@ -86,7 +105,7 @@ title: The Owlery
 
   <div class="sectionDivider"></div>
 
-  {% for post in site.categories.asides offset:4 limit:15 %}
+  {% for post in site.categories.asides offset:8 limit:15 %}
 	   <article class="aside">
        <p>
          {{ post.content | remove: '<p>' | remove: '</p>'}}
