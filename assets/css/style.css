@@ -10,6 +10,17 @@ body {
   line-height: 1.7rem;
 }
 
+body.withBorder {
+  border: 5px solid #d13636;
+  outline: 2px solid #d13636;
+  outline-offset: -10px;
+}
+
+section.footer {
+  height: 3rem;
+  padding: 1rem 0;
+}
+
 .clearfix {
   clear: both;
 }
@@ -30,7 +41,34 @@ body {
 }
 
 .header {
-  margin: 0 0 4rem 0;
+  margin: 0 0 3rem 0;
+}
+
+ul.siteMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.siteMenu li {
+  display: inline;
+  padding: 0 0.1rem 0 0;
+}
+
+ul.siteMenu li::after {
+  content: "  •";
+  color: #c0c0c0 !important;
+  font-size: 0.9rem;
+}
+
+ul.siteMenu li:last-child::after {
+  content: "";
+}
+
+a.menuLink {
+  color: #c0c0c0 !important;
+  font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .asides-left {
@@ -41,7 +79,7 @@ body {
 .asides-right {
   width: 47%;
   float: right;
-  border-left: 2px solid lightGray;
+  border-left: 2px solid #faebeb;
   padding: 0 0 0 4%;
 }
 
@@ -121,11 +159,12 @@ h1.siteTitle {
   font-family: WhitneyHTF-SemiBoldSC;
   color: #d13636;
   font-size: 2rem;
+  margin: 1.5rem 0 0 0;
 }
 
 .cornerTitle {
   padding: 1rem 0 0 1rem;
-  margin: 0;
+  margin: 0 !important;
 }
 
 /*.cornerTitle a:hover {
@@ -221,7 +260,7 @@ span.sectionHeader {
   font-size: 0.8rem;
   color: #d13636;
   font-weight: bold;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.15rem;
 }
 
 .sectionDivider {
@@ -256,6 +295,12 @@ h2.previousTitle {
   display: block;
   padding: 0 0 0.5rem 0;
   line-height: 1.2rem;
+}
+
+section.footer p {
+  color: lightGray;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 /* ====================== */

@@ -54,7 +54,7 @@ title: The Owlery
     </span>
   </div>
 
-  {% for post in site.categories.columns limit:2 %}
+  {% for post in site.categories.columns limit:1 %}
     <article class="column">
       {% if post.image %}
         <div id="previewImage" style="background-image: url(/assets/img/{{ post.image }})">
@@ -80,7 +80,7 @@ title: The Owlery
   </div>
 
   <ul class="previousPosts">
-	{% for post in site.categories.columns offset:2 limit: 5 %}
+	{% for post in site.categories.columns offset:1 limit: 5 %}
 		<li class="previousPost">
 			<h2 class="postTitle previousTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<span class="postDate previousDate">{{ post.date | date: "%B %-d %Y" }}</span>
@@ -105,17 +105,38 @@ title: The Owlery
 
   <div class="sectionDivider"></div>
 
-  {% for post in site.categories.asides offset:8 limit:15 %}
-	   <article class="aside">
-       <p>
-         {{ post.content | remove: '<p>' | remove: '</p>'}}
-         <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-      </p>
-     </article>
-     {% if forloop.index != 15 %}
-        <hr class="asidesSeperator">
-     {% endif %}
-	{% endfor %}
+  <div class="asides">
+    <div class="asides-left">
+      {% for post in site.categories.asides offset:8 limit:4 %}
+    	   <article class="aside">
+           <p>
+             {{ post.content | remove: '<p>' | remove: '</p>'}}
+             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+          </p>
+         </article>
+         {% if forloop.index != 4 %}
+            <hr class="asidesSeperator">
+         {% endif %}
+    	{% endfor %}
+    </div>
+    <hr class="asidesSeperator mobileOnly">
+    <div class="asides-right">
+      {% for post in site.categories.asides offset:12 limit:4 %}
+    	   <article class="aside">
+           <p>
+             {{ post.content | remove: '<p>' | remove: '</p>'}}
+             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+          </p>
+         </article>
+         {% if forloop.index != 4 %}
+            <hr class="asidesSeperator">
+         {% endif %}
+    	{% endfor %}
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="sectionDivider"></div>
 
 </div> <!-- end content -->
 

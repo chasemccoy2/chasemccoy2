@@ -12,10 +12,15 @@
 
 <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/assets/css/syntax.css" | prepend: site.baseurl }}">
 
 <script src="https://use.typekit.net/piw8rkl.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
 
-<body>
+{% if page.url == "/index.html" %}
+   <body class="withBorder">
+{% else %}
+  <body>
+{% endif %}
