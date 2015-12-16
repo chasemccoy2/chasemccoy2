@@ -1,0 +1,43 @@
+---
+title: Archive
+layout: page
+---
+
+<p>Posts are split up by articles and asides.</p>
+
+<h3 class="section-title">Articles</h3>
+<div class="sectionDivider"></div>
+<ul class="archive-list">
+{% for post in site.categories.columns %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-date">{{ post.date | date: "%b %-d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>
+
+<br>
+
+<h3 class="section-title">Asides</h3>
+<div class="sectionDivider"></div>
+<ul class="archive-list">
+{% for post in site.categories.asides %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-date">{{ post.date | date: "%b %-d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>
+
+<br>
+
+<h3 class="section-title">Quotes</h3>
+<div class="sectionDivider"></div>
+<ul class="archive-list">
+{% for post in site.categories.quotes %}
+  <li>
+    <span class="archive-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{  post.title }}</a></span>
+    <span class="archive-date">{{ post.date | date: "%b %-d, %Y"}}</span>
+  </li>
+{% endfor %}
+</ul>

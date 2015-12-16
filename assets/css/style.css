@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Bridone-web';
+    src: url(/fonts/bridonetitling-demibold-italic.eot);
+    src: url(/fonts/bridonetitling-demibold-italic.eot?#iefix) format("embedded-opentype"), url(/fonts/bridonetitling-demibold-italic.woff2) format("woff2"), url(/fonts/bridonetitling-demibold-italic.woff) format("woff");
+    font-weight: bold;
+    font-style: italic
+}
+
 html {
   font-size: 16px;
   line-height: 24px;
@@ -8,12 +16,6 @@ body {
       ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
   font-size: 1.05rem;
   line-height: 1.7rem;
-}
-
-body.withBorder {
-  border: 5px solid #d13636;
-  outline: 2px solid #d13636;
-  outline-offset: -10px;
 }
 
 section.footer {
@@ -177,9 +179,11 @@ h1.siteTitle {
 }
 
 h2.postTitle {
+  font-family: "Bridone-web", Georgia;
   font-size: 2.0rem;
   line-height: 2.5rem;
-  font-weight: 900;
+  font-weight: bold;
+  font-style: italic;
   margin: 0 0 0 0;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -209,7 +213,9 @@ p {
 }
 
 p.quoteText {
-  font-weight: 900;
+  font-family: "Bridone-web", Georgia;
+  font-weight: bold;
+  font-style: italic;
   font-size: 2.0rem;
   line-height: 2.5rem;
 }
@@ -371,11 +377,6 @@ img {
 
 
 @media screen and (max-width:480px) {
-  body.withBorder {
-    border: none;
-    outline: none;
-  }
-
   #wrapper {
     max-width: calc(100vw - 30px);
     padding: 0;
