@@ -157,8 +157,13 @@ article.quote {
 /* TYPOGRAPHY =========== */
 /* ====================== */
 
+.fancy {
+  font-family: 'Bridone-web', Georgia;
+  font-weight: bold;
+  font-style: italic;
+}
+
 h1.siteTitle {
-  font-family: WhitneyHTF-SemiBoldSC;
   color: #d13636;
   font-size: 2rem;
   margin: 1.5rem 0 0 0;
@@ -174,16 +179,16 @@ h1.siteTitle {
 }*/
 
 .headerIntro {
-  color: black;
-  font-size: 1.7rem;
+  color: #575757;
+  font-size: 1.2rem;
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+  font-weight: bold;
+  font-style: normal;
 }
 
 h2.postTitle {
-  font-family: "Bridone-web", Georgia;
   font-size: 2.0rem;
   line-height: 2.5rem;
-  font-weight: bold;
-  font-style: italic;
   margin: 0 0 0 0;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -213,9 +218,6 @@ p {
 }
 
 p.quoteText {
-  font-family: "Bridone-web", Georgia;
-  font-weight: bold;
-  font-style: italic;
   font-size: 2.0rem;
   line-height: 2.5rem;
 }

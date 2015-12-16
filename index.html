@@ -60,12 +60,12 @@ title: The Owlery
         <div id="previewImage" style="background-image: url(/assets/img/{{ post.image }})">
           <div class="overlay"></div>
           <div class="heroContent aboveOverlay heroPreview">
-            <h2 class="postTitle" style="font-size: 2.5rem; line-height: 2.7rem;"><a href="{{ post.url }}" class="white">{{ post.title }}</a></h2>
+            <h2 class="postTitle fancy" style="font-size: 2.5rem; line-height: 2.7rem;"><a href="{{ post.url }}" class="white">{{ post.title }}</a></h2>
             <span class="postDate white" style="font-size: 0.8rem;">{{ post.date | date: "%B %-d %Y" }}</span>
           </div>
         </div>
       {% else %}
-        <h2 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2 class="postTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <span class="postDate">{{ post.date | date: "%B %-d %Y" }}</span>
       {% endif %}
 
@@ -82,7 +82,7 @@ title: The Owlery
   <ul class="previousPosts">
 	{% for post in site.categories.columns offset:1 limit: 5 %}
 		<li class="previousPost">
-			<h2 class="postTitle previousTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<h2 class="postTitle previousTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<span class="postDate previousDate">{{ post.date | date: "%B %-d %Y" }}</span>
 		</li>
 	{% endfor %}
@@ -96,7 +96,7 @@ title: The Owlery
 
   {% for post in site.categories.quotes limit:1 %}
 	   <article class="quote">
-       <p class="quoteText">
+       <p class="quoteText fancy">
          “{{ post.content | remove: '<p>' | remove: '</p>'}}”
        </p>
        <p class="quoteSource">— {{ post.source }}</p>
