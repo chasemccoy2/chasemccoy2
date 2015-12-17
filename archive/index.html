@@ -5,8 +5,13 @@ layout: page
 
 <p>Posts are split up by articles and asides.</p>
 
-<h3 class="section-title">Articles</h3>
-<div class="sectionDivider"></div>
+<br>
+
+<div class="sectionDivider">
+  <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
+    Articles
+  </span>
+</div>
 <ul class="archive-list">
 {% for post in site.categories.columns %}
   <li>
@@ -16,10 +21,13 @@ layout: page
 {% endfor %}
 </ul>
 
-<br>
+<br><br>
 
-<h3 class="section-title">Asides</h3>
-<div class="sectionDivider"></div>
+<div class="sectionDivider">
+  <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
+    Asides
+  </span>
+</div>
 <ul class="archive-list">
 {% for post in site.categories.asides %}
   <li>
@@ -29,10 +37,13 @@ layout: page
 {% endfor %}
 </ul>
 
-<br>
+<br><br>
 
-<h3 class="section-title">Quotes</h3>
-<div class="sectionDivider"></div>
+<div class="sectionDivider">
+  <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
+    Quotes
+  </span>
+</div>
 <ul class="archive-list">
 {% for post in site.categories.quotes %}
   <li>

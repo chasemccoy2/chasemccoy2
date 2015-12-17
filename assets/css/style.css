@@ -46,10 +46,36 @@ section.footer {
   margin: 0 0 3rem 0;
 }
 
+.headerLeft {
+  float: left;
+  width: 55%;
+}
+
+.headerRight {
+  float: right;
+  width: 40%;
+  padding: 0 0 0 5%;
+  color: #c0c0c0;
+}
+
+p.about {
+  color: inherit;
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: right;
+  line-height: 1.3rem;
+  padding: 1.6rem 0 0 0;
+}
+
 ul.siteMenu {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  color: #c0c0c0;
+}
+
+ul.siteMenu:hover {
+  color: #d13636;
 }
 
 ul.siteMenu li {
@@ -68,9 +94,13 @@ ul.siteMenu li:last-child::after {
 }
 
 a.menuLink {
-  color: #c0c0c0 !important;
+  color: inherit;
   font-size: 0.9rem;
   text-decoration: none;
+}
+
+a.menuLink:hover {
+  color: inherit;
 }
 
 .asides-left {
@@ -372,6 +402,7 @@ img {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+  }
 }
 
 
@@ -448,5 +479,21 @@ ul.archive-list {
 }
 
 .archive-list-title {
-  font-size: 13rem;
+  font-size: 1.0rem;
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.archive-list-title a {
+  color: #404040;
+  text-decoration: none;
+}
+
+.archive-date {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.archive-date::before {
+  content: "\00a0 \00a0 \00a0 \00a0"
 }
