@@ -278,7 +278,7 @@ a.asideDate {
 
 h1.siteTitle a {
   text-decoration: none;
-  color: white;
+  color: #d13636;
 }
 
 h2.postTitle a {
@@ -378,6 +378,10 @@ img {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+.video {
+  margin: 0 0 1rem 0;
 }
 
 
