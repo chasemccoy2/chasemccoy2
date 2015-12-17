@@ -413,6 +413,28 @@ img {
     padding: 0;
   }
 
+  .headerLeft {
+    float: none;
+    width: 100%;
+  }
+
+  .headerRight {
+    float: none;
+    width: 100%;
+    padding: 0 0 0 0;
+    color: #c0c0c0;
+  }
+
+  p.about {
+    color: inherit;
+    font-size: 0.8rem;
+    margin: 0;
+    text-align: left;
+    line-height: 1.3rem;
+    padding: 0.8rem 0 0 0;
+  }
+
+
   .asides-left {
     float: none;
     width: 100%
