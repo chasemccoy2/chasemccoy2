@@ -1,12 +1,14 @@
 # Site settings
 title: "The Owlery"
 email: "chasem000@gmail.com"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+description: "A hyperlink odyssey."
 url: "http://chasemccoy2.github.io"
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
+excerpt_separator: "\n\n"
 
 permalink: /:year/:month/:title
 
