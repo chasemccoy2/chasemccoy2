@@ -15,7 +15,7 @@ permalink: /feeds-main.xml
     {% for post in site.posts limit:10 %}
       <item>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <author>Chase McCoy</author>
+        <dc:creator><![CDATA[Chase McCoy]]></dc:creator>
         <title>{{ post.title | xml_escape }}</title>
           <description>
             <![CDATA[
