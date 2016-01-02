@@ -318,6 +318,11 @@ a.white {
   color: white !important;
 }
 
+a.more {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .previousPosts {
   list-style-type: none;
   padding: 0;

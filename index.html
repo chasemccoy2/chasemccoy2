@@ -68,7 +68,14 @@ layout: null
         <span class="postDate">{{ post.date | date: "%B %-d %Y" }}</span>
       {% endif %}
 
-      {{ post.content }}
+      {% if post.content contains '<!-- more -->' %}
+        {{ post.content | split:'<!-- more -->' | first }}
+      {% else %}
+      	{{ post.excerpt }}
+      {% endif %}
+      <p style="text-align:center;">
+        <a href="{{ post.url }}" class="more">Continue reading...</a>
+      </p>
     </article>
   {% endfor %}
 

@@ -6,9 +6,12 @@ permalink: /2015/11/the-ipad-paradox/
 categories:
   - Apple
 ---
-It&#8217;s pretty amazing just how quickly my primary devices have changed over the years. First, just a laptop. Then, a desktop computer and an iPad as my laptop. Now, a MacBook and an iPad as an occasional entertainment device.
+
+It’s pretty amazing just how quickly my primary devices have changed over the years. First, just a laptop. Then, a desktop computer and an iPad as my laptop. Now, a MacBook and an iPad as an occasional entertainment device.
 
 The iPad has always been the puzzle piece that just doesn&#8217;t quite fit for me. I&#8217;ve long thought that the idea of using an iPad as a mobile computer is a great one. After all, the iPad is ultimately mobile and features some world-class mobile software. But in practice, I have never been able to tear myself apart from my MacBook when I need a computer on the go (or at home).
+
+<!-- more -->
 
 The truth of the matter is that whatever I can get done on my iPad, I can do on my Mac with half the time and effort. And then there are all the things I can&#8217;t do on the iPad at all (like develop iOS apps). However, I still feel compelled by the iPad itself as a mobile computer. It&#8217;s simplicity and great selection of apps makes it something I *enjoy* using, even though it&#8217;s not necessarily easier to use than my Mac.
 
