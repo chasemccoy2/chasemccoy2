@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family:  'Avenir Next', system, -apple-system,
+  font-family: 'Avenir Next', system, -apple-system,
       ".SFNSDisplay-Regular", 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       ".SFNSDisplay-Regular";
   font-size: 1.05rem;
@@ -120,6 +120,9 @@ article.aside {
   font-size: 0.9rem;
   line-height: 1.4rem;
   margin: 0 0 1rem 0;
+  font-family: system, -apple-system,
+      ".SFNSDisplay-Regular", 'Avenir Next', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      ".SFNSDisplay-Regular";
   /*border-bottom: 1px solid #faebeb;*/
 
   /*background-color: #faebeb;
