@@ -12,8 +12,9 @@ html {
 }
 
 body {
-  font-family:  system, -apple-system,
-      ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+  font-family:  'Avenir Next', system, -apple-system,
+      ".SFNSDisplay-Regular", 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      ".SFNSDisplay-Regular";
   font-size: 1.05rem;
   line-height: 1.7rem;
 }
