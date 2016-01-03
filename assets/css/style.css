@@ -164,6 +164,18 @@ article.quote {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .aboveOverlay {
@@ -178,7 +190,7 @@ article.quote {
   right: 0;
   width: 50%;
   margin: 0 auto;
-  padding: 0 0 2rem 0;
+  padding: 0 0 3.5rem 0;
 }
 
 .heroPreview {
@@ -261,6 +273,7 @@ p.quoteSource {
   font-size: 0.9rem;
   color: #d13636;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 a {
@@ -327,7 +340,8 @@ a.more {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  margin-bottom: 3rem;
+  width: 80%;
+  margin: 1.5rem auto 3rem auto;
 }
 
 h2.previousTitle {
