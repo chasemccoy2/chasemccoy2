@@ -27,6 +27,7 @@ permalink: /main.xml
 
         <description>
           {% if post.category = "quotes" %}
+          LALALALALALALA
             <![CDATA[
             <p>
               “{{ post.content | remove: '<p>' | remove: '</p>'}}”
@@ -34,6 +35,7 @@ permalink: /main.xml
             <p>— {{ post.source }}</p>
             ]]>
           {% else %}
+          TESTTESTTESTTETTESTETS
             <![CDATA[
             {{ post.content }}
             ]]>
