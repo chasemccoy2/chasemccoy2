@@ -19,10 +19,10 @@ permalink: /main.xml
 
         {% if post.category == "quotes" %}
           <title>Quote: {{ post.title | xml_escape }}</title>
-        {% elseif post.category == "asides" %}
+        {% elsif post.category == "asides" %}
           <title>Aside: {{ post.title | xml_escape }}</title>
         {% else %}
-          <title>TEST {{ post.title | xml_escape }}</title>
+          <title>{{ post.title | xml_escape }}</title>
         {% endif %}
 
         <description>
