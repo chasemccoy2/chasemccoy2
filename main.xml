@@ -22,7 +22,7 @@ permalink: /main.xml
         {% elsif post.category == "asides" %}
           <title>Aside: {{ post.title | xml_escape }}</title>
         {% else %}
-          <title>{{ post.title | xml_escape }}</title>
+          <title>TEST: {{ post.title | xml_escape }}</title>
         {% endif %}
 
         <description>
