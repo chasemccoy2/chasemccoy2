@@ -17,16 +17,16 @@ permalink: /main.xml
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <dc:creator><![CDATA[Chase McCoy]]></dc:creator>
 
-        {% if post.category == "quotes" %}
+        {% if post.categories contains 'quotes' %}
           <title>Quote: {{ post.title | xml_escape }}</title>
-        {% elsif post.category == "asides" %}
+        {% elsif post.categories contains 'asides' %}
           <title>Aside: {{ post.title | xml_escape }}</title>
         {% else %}
-          <title>TEST: {{ post.title | xml_escape }}</title>
+          <title>{{ post.title | xml_escape }}</title>
         {% endif %}
 
         <description>
-          {% if post.category == "quotes" %}
+          {% if post.categories contains 'quotes' %}
             <![CDATA[
             <p>
               “{{ post.content | remove: '<p>' | remove: '</p>'}}”
