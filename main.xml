@@ -17,29 +17,29 @@ permalink: /main.xml
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <dc:creator><![CDATA[Chase McCoy]]></dc:creator>
 
-        {% if post.categories contains 'quotes' %}
+        {% if post.category == "quotes" %}
           <title>Quote: {{ post.title | xml_escape }}</title>
-        {% elseif post.categories contains 'asides' %}
+        {% elseif post.category == "asides" %}
           <title>Aside: {{ post.title | xml_escape }}</title>
         {% else %}
           <title>{{ post.title | xml_escape }}</title>
         {% endif %}
 
-          <description>
-            {% if post.categories contains 'quotes' %}
-              <![CDATA[
-              <p>
-                “{{ post.content | remove: '<p>' | remove: '</p>'}}”
-              </p>
-              <p>— {{ post.source }}</p>
-              ]]>
-            {% else %}
-              <![CDATA[
-              {{ post.content }}
-              ]]>
-            {% endif %}
+        <description>
+          {% if post.category = "quotes" %}
+            <![CDATA[
+            <p>
+              “{{ post.content | remove: '<p>' | remove: '</p>'}}”
+            </p>
+            <p>— {{ post.source }}</p>
+            ]]>
+          {% else %}
+            <![CDATA[
+            {{ post.content }}
+            ]]>
+          {% endif %}
 
-          </description>
+        </description>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
       </item>
