@@ -22,12 +22,11 @@ permalink: /main.xml
         {% elseif post.category == "asides" %}
           <title>Aside: {{ post.title | xml_escape }}</title>
         {% else %}
-          <title>{{ post.title | xml_escape }}</title>
+          <title>TEST {{ post.title | xml_escape }}</title>
         {% endif %}
 
         <description>
           {% if post.category = "quotes" %}
-          LALALALALALALA
             <![CDATA[
             <p>
               “{{ post.content | remove: '<p>' | remove: '</p>'}}”
@@ -35,7 +34,6 @@ permalink: /main.xml
             <p>— {{ post.source }}</p>
             ]]>
           {% else %}
-          TESTTESTTESTTETTESTETS
             <![CDATA[
             {{ post.content }}
             ]]>
