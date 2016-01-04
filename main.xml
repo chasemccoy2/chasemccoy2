@@ -26,7 +26,7 @@ permalink: /main.xml
         {% endif %}
 
         <description>
-          {% if post.category = "quotes" %}
+          {% if post.category == "quotes" %}
             <![CDATA[
             <p>
               “{{ post.content | remove: '<p>' | remove: '</p>'}}”
