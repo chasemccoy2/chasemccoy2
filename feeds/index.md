@@ -3,4 +3,10 @@ title: Feeds
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If you want to keep up with The Owlery via RSS, I offer to different feeds. The first is the main feed, which includes posts from the column, asides, and quotes. You can grab it here:
+
+<a href="http://theowlery.co/main.xml" style="font-weight:bold;text-decoration:none;">The Owlery’s Main Feed</a>
+
+I also offer a feed that just includes posts from the column, which are much more infrequent:
+
+<a href="http://theowlery.co/posts.xml" style="font-weight:bold;text-decoration:none;">The Owlery’s Column Feed</a>

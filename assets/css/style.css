@@ -132,6 +132,10 @@ article.aside {
   border-radius: 10px;*/
 }
 
+article.aside a {
+  text-decoration: none;
+}
+
 hr.asidesSeperator {
   height: 0.4rem;
   background-color: #faebeb;
