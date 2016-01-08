@@ -14,7 +14,6 @@ html {
 body {
   font-family: 'Avenir Next', system, -apple-system,
       ".SFNSDisplay-Regular", 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      ".SFNSDisplay-Regular";
   font-size: 1.05rem;
   line-height: 1.7rem;
 }
@@ -206,6 +205,24 @@ article.quote {
 /* ====================== */
 /* TYPOGRAPHY =========== */
 /* ====================== */
+
+h1, h2, h3, h4 { margin: 1.2rem 0 0.8rem 0; }
+
+h1 {
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 1.0rem;
+}
 
 .fancy {
   font-family: 'Bridone-web', Georgia, serif;
