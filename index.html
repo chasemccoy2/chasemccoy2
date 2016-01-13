@@ -30,7 +30,7 @@ layout: null
     </div>
     <hr class="asidesSeperator mobileOnly">
     <div class="asides-right">
-      {% for post in site.categories.asides offset:4 limit:4 %}
+      {% for post in site.categories.asides offset:4 limit:3 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
@@ -113,7 +113,7 @@ layout: null
 
   <div class="asides">
     <div class="asides-left">
-      {% for post in site.categories.asides offset:8 limit:4 %}
+      {% for post in site.categories.asides offset:7 limit:4 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
@@ -127,7 +127,7 @@ layout: null
     </div>
     <hr class="asidesSeperator mobileOnly">
     <div class="asides-right">
-      {% for post in site.categories.asides offset:12 limit:4 %}
+      {% for post in site.categories.asides offset:11 limit:4 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
