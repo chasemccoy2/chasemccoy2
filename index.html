@@ -64,7 +64,7 @@ layout: null
           </div>
         </div>
       {% else %}
-        <h2 class="postTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <span class="postDate">{{ post.date | date: "%B %-d %Y" }}</span>
       {% endif %}
 
@@ -88,7 +88,11 @@ layout: null
   <ul class="previousPosts">
 	{% for post in site.categories.columns offset:1 limit: 5 %}
 		<li class="previousPost">
-			<h2 class="postTitle previousTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.image %}
+        <h2 class="postTitle previousTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% else %}
+        <h2 class="postTitle previousTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% endif %}
 			<span class="postDate previousDate">{{ post.date | date: "%B %-d %Y" }}</span>
 		</li>
 	{% endfor %}
