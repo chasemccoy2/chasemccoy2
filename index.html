@@ -16,7 +16,21 @@ layout: null
 
   <div class="asides">
     <div class="asides-left">
-      {% for post in site.categories.asides limit:4 %}
+      {% for post in site.categories.asides limit:5 %}
+    	   <article class="aside">
+           <p>
+             {{ post.content | remove: '<p>' | remove: '</p>'}}
+             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
+          </p>
+         </article>
+         {% if forloop.index != 5 %}
+            <hr class="asidesSeperator">
+         {% endif %}
+    	{% endfor %}
+    </div>
+    <hr class="asidesSeperator mobileOnly">
+    <div class="asides-right">
+      {% for post in site.categories.asides offset:5 limit:4 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
@@ -24,20 +38,6 @@ layout: null
           </p>
          </article>
          {% if forloop.index != 4 %}
-            <hr class="asidesSeperator">
-         {% endif %}
-    	{% endfor %}
-    </div>
-    <hr class="asidesSeperator mobileOnly">
-    <div class="asides-right">
-      {% for post in site.categories.asides offset:4 limit:3 %}
-    	   <article class="aside">
-           <p>
-             {{ post.content | remove: '<p>' | remove: '</p>'}}
-             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-          </p>
-         </article>
-         {% if forloop.index != 3 %}
             <hr class="asidesSeperator">
          {% endif %}
     	{% endfor %}
@@ -113,28 +113,28 @@ layout: null
 
   <div class="asides">
     <div class="asides-left">
-      {% for post in site.categories.asides offset:7 limit:4 %}
+      {% for post in site.categories.asides offset:9 limit:5 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
              <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
           </p>
          </article>
-         {% if forloop.index != 4 %}
+         {% if forloop.index != 5 %}
             <hr class="asidesSeperator">
          {% endif %}
     	{% endfor %}
     </div>
     <hr class="asidesSeperator mobileOnly">
     <div class="asides-right">
-      {% for post in site.categories.asides offset:11 limit:4 %}
+      {% for post in site.categories.asides offset:14 limit:5 %}
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
              <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
           </p>
          </article>
-         {% if forloop.index != 4 %}
+         {% if forloop.index != 5 %}
             <hr class="asidesSeperator">
          {% endif %}
     	{% endfor %}
