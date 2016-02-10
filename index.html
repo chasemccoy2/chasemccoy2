@@ -17,7 +17,6 @@ layout: null
   <div class="asides">
     <div class="asides-left">
       {% for post in site.categories.asides limit:5 %}
-        test
     	   <article class="aside">
            <p>
              {{ post.content | remove: '<p>' | remove: '</p>'}}
