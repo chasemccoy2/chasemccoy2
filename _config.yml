@@ -6,7 +6,7 @@ url: "http://theowlery.co"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 excerpt_separator: "\n\n"
 
