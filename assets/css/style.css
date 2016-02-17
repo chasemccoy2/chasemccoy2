@@ -14,8 +14,8 @@ html {
 body {
   font-family: 'Avenir Next', system, -apple-system,
       ".SFNSDisplay-Regular", 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.7rem;
+  font-size: 1.1em;
+  line-height: 1.65em;
 }
 
 section.footer {
@@ -230,6 +230,10 @@ h4 {
   font-style: italic;
 }
 
+.left {
+  text-align: left !important;
+}
+
 h1.siteTitle {
   color: #d13636;
   font-size: 2rem;
@@ -255,11 +259,11 @@ h1.siteTitle {
 
 h2.postTitle {
   font-size: 2.0rem;
-  line-height: 2.5rem;
+  line-height: 2.0rem;
   margin: 0 0 0 0;
   text-align: center;
   letter-spacing: 0.1rem;
-  padding: 0.5rem 0 0.5rem 0.3rem;
+  /*padding: 0.5rem 0 0.5rem 0rem;*/
   /*transition: 0.3s;
   -moz-transition: 0.3s;
   -webkit-transition: 0.3s;

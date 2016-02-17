@@ -12,3 +12,30 @@ future: true
 excerpt_separator: "\n\n"
 
 permalink: /:year/:month/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: post
+  -
+    scope:
+      path: "asides"
+      type: "posts"
+    values:
+      category: asides
+  -
+    scope:
+      path: "columns"
+      type: "posts"
+    values:
+      category: columns
+  -
+    scope:
+      path: "quotes"
+      type: "posts"
+    values:
+      category: quotes
