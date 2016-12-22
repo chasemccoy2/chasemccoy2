@@ -1,155 +1,32 @@
 ---
-layout: null
+layout: default
+title: Chase McCoy
 ---
 
-{% include head.html %}
+<div class="introduction clearfix table">
+  <div class="pt10 pl12 pb6 col-xs-12 col-sm-6 float-none table-cell">
+    <p class="h1 color-white extrabold accent-shadow">Chase McCoy</p>
 
-<div id="wrapper">
-{% include header.html %}
-<div class="content">
-
-  <div class="sectionDivider">
-    <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
-      The Asides
-    </span>
+    <p class="pt6 h3 color-white line-height-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 
-  <div class="asides">
-    <div class="asides-left">
-      {% for post in site.categories.asides limit:5 %}
-    	   <article class="aside">
-           <p>
-             {{ post.content | remove: '<p>' | remove: '</p>'}}
-             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-          </p>
-         </article>
-         {% if forloop.index != 5 %}
-            <hr class="asidesSeperator">
-         {% endif %}
-    	{% endfor %}
+  <div class="portrait col-xs-12 col-sm-6 float-none table-cell">
+  </div>
+</div>
+
+<div class="wave"></div>
+
+<div class="portfolio bg-brand-accent">
+  <div class="pt8 container px4">
+    <div class="col-xs-12">
+      <p class="h1 color-white extrabold primary-shadow pb2">Portfolio</p>
     </div>
-    <hr class="asidesSeperator mobileOnly">
-    <div class="asides-right">
-      {% for post in site.categories.asides offset:5 limit:4 %}
-    	   <article class="aside">
-           <p>
-             {{ post.content | remove: '<p>' | remove: '</p>'}}
-             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-          </p>
-         </article>
-         {% if forloop.index != 4 %}
-            <hr class="asidesSeperator">
-         {% endif %}
-    	{% endfor %}
+
+    <div class="col-xs-12">
+      <ul class="shots list-reset"></ul>
     </div>
-    <div class="clearfix"></div>
   </div>
-
-  <br>
-
-  <div class="sectionDivider">
-    <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
-      The Column
-    </span>
-  </div>
-
-  {% for post in site.categories.columns limit:1 %}
-    <article class="column">
-      {% if post.image %}
-        <div id="previewImage" style="background-image: url(/assets/img/{{ post.image }})">
-          <div class="overlay"></div>
-          <div class="heroContent aboveOverlay heroPreview">
-            <h2 class="postTitle fancy" style="font-size: 2.5rem; line-height: 2.7rem;"><a href="{{ post.url }}" class="white">{{ post.title }}</a></h2>
-            <span class="postDate white" style="font-size: 0.8rem;">{{ post.date | date: "%B %-d %Y" }}</span>
-          </div>
-        </div>
-      {% else %}
-        <h2 class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <span class="postDate">{{ post.date | date: "%B %-d %Y" }}</span>
-      {% endif %}
-
-      {% if post.content contains '<!-- more -->' %}
-        {{ post.content | split:'<!-- more -->' | first }}
-      {% else %}
-      	{{ post.excerpt }}
-      {% endif %}
-      <p style="text-align:center;">
-        <a href="{{ post.url }}" class="more">Continue reading...</a>
-      </p>
-    </article>
-  {% endfor %}
-
-  <div class="sectionDivider" style="width: 80%; margin: 0 auto;">
-    <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
-      Previous Posts
-    </span>
-  </div>
-
-  <ul class="previousPosts">
-	{% for post in site.categories.columns offset:1 limit: 5 %}
-		<li class="previousPost">
-      {% if post.image %}
-        <h2 class="postTitle previousTitle fancy"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {% else %}
-        <h2 class="postTitle previousTitle"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {% endif %}
-			<span class="postDate previousDate">{{ post.date | date: "%B %-d %Y" }}</span>
-		</li>
-	{% endfor %}
-	</ul>
-
-  <div class="sectionDivider">
-    <span style="background-color: white; position: relative; top: -1.1em;" class="sectionHeader">
-      Latest Quote
-    </span>
-  </div>
-
-  {% for post in site.categories.quotes limit:1 %}
-	   <article class="quote">
-       <p class="quoteText fancy">
-         “{{ post.content | remove: '<p>' | remove: '</p>'}}”
-       </p>
-       <p class="quoteSource">— {{ post.source }}</p>
-     </article>
-	{% endfor %}
-
-  <div class="sectionDivider"></div>
-
-  <div class="asides">
-    <div class="asides-left">
-      {% for post in site.categories.asides offset:9 limit:5 %}
-    	   <article class="aside">
-           <p>
-             {{ post.content | remove: '<p>' | remove: '</p>'}}
-             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-          </p>
-         </article>
-         {% if forloop.index != 5 %}
-            <hr class="asidesSeperator">
-         {% endif %}
-    	{% endfor %}
-    </div>
-    <hr class="asidesSeperator mobileOnly">
-    <div class="asides-right">
-      {% for post in site.categories.asides offset:14 limit:5 %}
-    	   <article class="aside">
-           <p>
-             {{ post.content | remove: '<p>' | remove: '</p>'}}
-             <a class="asideDate" href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%b %-d" }}</a>
-          </p>
-         </article>
-         {% if forloop.index != 5 %}
-            <hr class="asidesSeperator">
-         {% endif %}
-    	{% endfor %}
-    </div>
-    <div class="clearfix"></div>
-  </div>
-
-  <br>
-  <div class="sectionDivider"></div>
-
-</div> <!-- end content -->
-
-{% include footer.html %}
-</div> <!-- end wrapper -->
+</div>

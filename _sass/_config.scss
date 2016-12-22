@@ -1,0 +1,221 @@
+// Welcome to the configuration file. This is your starting point for
+// getting started with Sparc. Whenever you start a new project, start
+// by cloning the Sparc repository. Then come here and configure the
+// specifics of your project. Then all you have to do is generate your
+// CSS using the instructions in the Sparc documentation.
+
+// So let's get started! This file is split up into 4 sections:
+// 1. Layout
+// 2. Typography
+// 3. Colors
+// 4. Styling
+
+// We will start by configuring the layout of your project.
+
+// ----------------------
+// LAYOUT ---------------
+// ----------------------
+
+$susy: (
+  columns: 12,
+  gutters: 0.35,
+  container: 90rem,
+  gutter-position: split
+);
+
+//  BREAKPOINTS ----------
+/// Just like Bootstrap, Sparc gives you access to modifiers for
+/// varying screen sizes. The $breakpoints variable stores a list of
+/// the names and widths for these sizes. Below you can see that we define
+/// the extra-small breakpoint to be at 32em. We define these values
+/// using em because we want our layout to vary based on font size as well
+/// as screen size. If the user zooms in with their browser, we want our
+/// layout to react to that just like it reacts to a change in screen size.
+/// The em unit is relative to the font-size of the current element. So if
+/// our website has a base font-size of 16px, 1em would be equal to 16px,
+/// 2em would be equal to 32 px, etc. Each size is commented with its
+/// equivalent pixel size, but be aware that this is assuming the base font
+/// size is 16px (which is common in most browsers). If you change the base
+/// font size, the pixel values will change as well. You can use
+/// [this website](http://pxtoem.com) to convert em values to px for specific
+/// font sizes.
+/// @group Config
+/// @type Map
+/// @property {Number (em)} xs [32em] - Extra small width devices (phones)
+/// @property {Number (em)} sm [30em] - Small width devices (larger phones and tablets)
+/// @property {Number (em)} md [52em] - Medium width devices (tablets and notebooks)
+/// @property {Number (em)} lg [64em] - Large width devices (desktop computers)
+$breakpoints: (
+  xs: 32em, // 512px
+  sm: 40em, // 640px
+  md: 52em, // 832px
+  lg: 64em  // 1024px
+);
+
+//  LOOP COUNTS -----------
+// If you look in _layout.scss, _margin.scss, and _padding.scss,
+// you will see that there are functions that automatically generate
+// helper classes for applying margin, padding, height, and width.
+// Each function loops however many times we define, and creates classes
+// that apply values in 0.5rem increments. The rem unit is similar to the
+// em unit, but it is equal to the font size of the root element of the page.
+// Whereas 1em may differ depending on the font size of the parent element,
+// 1rem will be the same no matter where in the page it is applied.
+// Customize the values if you want to change how many classes are created.
+// The default margin loop count is 12, which means that the followin
+// margin amounts will be created: 0.5rem, 1.0rem, 1.5rem, 2.0rem, 2.5rem,
+// 3.0rem, 3.5rem, 4.0rem, 4.5rem, 5.0rem, 5.5rem, and 6.0rem. Refer to the
+// individual SCSS files for more information on using the margin, padding,
+// and layout classes.
+
+/// How many times the margin-generator loop should run. It generates margins
+/// in 0.5rem increments, so a loop count of 4 would generate margins at 0.5,
+/// 1.0, 1.5, and 2.0rem.
+/// @type Number (unitless)
+/// @group Config
+$margin-count: 12;
+
+/// How many times the padding-generator loop should run. It generates paddings
+/// in 0.5rem increments, so a loop count of 4 would generate paddings at 0.5,
+/// 1.0, 1.5, and 2.0rem.
+/// @type Number (unitless)
+/// @group Config
+$padding-count: 12;
+
+/// How many times the layout-generator loop should run. It generates heights and widths
+/// in 0.5rem increments, so a loop count of 4 would generate height and width classes at 0.5,
+/// 1.0, 1.5, and 2.0rem.
+/// @type Number (unitless)
+/// @group Config
+$layout-count: 32;
+
+
+
+// ----------------------
+// TYPOGRAPHY -----------
+// ----------------------
+
+// Fonts
+$sans: "Proxima Nova", sans-serif;
+$serif: serif;
+
+//  TYPE SCALE ------------
+// Here we define the sizes for our heading elements using rem units.
+// Remember that rem is relative to the font size of the root element
+// only, so the equivalent pixel values listed here if the root font
+// size is anything other than 16px
+
+/// Font size for H1 elements
+/// @type Number (rem)
+/// @group Config
+$h1: 3rem;      // 32px
+
+/// Font size for H2 elements
+/// @type Number (rem)
+/// @group Config
+$h2: 2.5rem;    // 24px
+
+/// Font size for H3 elements
+/// @type Number (rem)
+/// @group Config
+$h3: 2rem;   // 20px
+
+/// Font size for H4 elements
+/// @type Number (rem)
+/// @group Config
+$h4: 1.5rem;      // 16px
+
+/// Font size for H5 elements
+/// @type Number (rem)
+/// @group Config
+$h5: 1rem;  // 14px
+
+/// Font size for H6 elements
+/// @type Number (rem)
+/// @group Config
+$h6: 0.75rem;   // 12px
+
+//  LINE HEIGHTS ----------
+// We use these variables to create classes that let us apply custom
+// line heights. The numbers are multiplied by the font size of the
+// element to which the class is being applied. For example, if we apply
+// a line height of 1.5 to text that is 16px font size, the line height will
+// be 24px. As a general rule of thumb, the line height of body text should
+// be 1.5x the font size for maximum readability. Your mileage may very
+// depending on the specific typeface and content width, which is why we
+// provide these classes. See _typography.scss for more.
+
+/// Base line height
+/// @type Number (unitless)
+/// @group Config
+$line-height-1:  1.25;
+
+/// Increases line height by 25%
+/// @type Number (unitless)
+/// @group Config
+$line-height-2:  1.5;
+
+/// Increases line height by 50%
+/// @type Number (unitless)
+/// @group Config
+$line-height-3:  2;
+
+/// Doubles the base line height
+/// @type Number (unitless)
+/// @group Config
+$line-height-4:  2.5;
+
+
+
+
+
+/// The standard border width
+/// @type Number (px)
+/// @group Config
+$border-width: 2px;
+
+/// The standard border radius
+/// @type Number (px)
+/// @group Config
+$border-radius: 6px;
+
+/// The border radius for pill elements
+/// @type Number (px)
+/// @group Config
+$border-pill: 32px;
+
+// UI Color Definitions
+$white: #FFFFFF;
+$black: #000000;
+$phantom-gray: #56718C;
+$wraith-gray: #BCD3DE;
+$ghost-gray: #E1ECF2;
+$shade-gray: #B7C3CE;
+
+$ui-palette: (
+  white: $white,
+  primary: $black,
+  secondary: $phantom-gray,
+  tertiary: $wraith-gray,
+  placeholder: $ghost-gray,
+);
+
+$brand-primary-color: #253075;
+$brand-accent-color: #E8003D;
+
+$brand-primary: (
+  brand-primary: $brand-primary-color,
+  brand-primary-high: lighten($brand-primary-color, 20%),
+  brand-primary-low: darken($brand-primary-color, 20%)
+);
+
+$brand-accent: (
+  brand-accent: $brand-accent-color,
+  brand-accent-high: lighten($brand-accent-color, 20%),
+  brand-accent-low: darken($brand-accent-color, 20%)
+);
+
+$brand-palette: (
+  brand-primary: $brand-primary,
+  brand-accent: $brand-accent
+);

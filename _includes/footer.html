@@ -1,17 +1,29 @@
 <section class="footer">
-  <p>Thanks for stopping by.</p>
+
+
 </section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="/assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/jribbble.min.js"></script>
 
 <script>
-  $(document).ready(function(){
-    // Target your .container, .wrapper, .post, etc.
-    $(".video").fitVids();
+  $.jribbble.setToken('ad1f77e3394d27bc79b40c856f28f259103965f081c031ed5d603cbdaffe0856');
+
+  $.jribbble.users('chase_mccoy').shots({per_page: 100}).then(function(shots) {
+    var html = [];
+
+    shots.forEach(function(shot) {
+      var images = shot.images;
+      var img = (images.hidpi) ? images.hidpi : images.normal;
+      html.push('<li class="shot col-md-3 col-sm-6 col-xs-12">');
+      html.push('<a href="' + shot.html_url + '" target="_blank">');
+      html.push('<div class="shot cover rounded" style="background-image: url(' + img + ')"')
+      // html.push('<img src="' + shot.images.hidpi + '">');
+      html.push('</a></li>');
+    });
+
+    $('.shots').html(html.join(''));
   });
 </script>
-
 
 </body>
 </html>

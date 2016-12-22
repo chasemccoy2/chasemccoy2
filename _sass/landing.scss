@@ -1,0 +1,113 @@
+.introduction {
+  min-height: 102vh
+}
+
+.portrait {
+  width: 100%;
+  background-image: linear-gradient(90deg, $brand-primary-color, rgba($brand-primary-color, 0.3) 30%, rgba($brand-primary-color, 0.0) 40%), url("/assets/img/portrait.png");
+  background-size: cover;
+}
+
+.h1 {
+  font-size: 3.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8rem;
+}
+
+.accent-shadow {
+  @include text-shadow(map-get(map-get($brand-palette, brand-accent), brand-accent-high));
+}
+
+.primary-shadow {
+  @include text-shadow(map-get(map-get($brand-palette, brand-primary), brand-primary));
+}
+
+.portfolio {
+  min-height: 102vh;
+
+  .h1 {
+    margin-left: gutter();
+  }
+}
+
+ul.shots {
+  li.shot {
+    margin-bottom: 2 * gutter();
+  }
+
+  div.shot {
+    background-color: white;
+    background-position: center center;
+    @include aspect-ratio(4, 3);
+    box-shadow: 0px 0px 42px 16px rgba($brand-primary-color, 0.16);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    -webkit-transition: filter 0.3s, -webkit-filter 0.3s;
+  }
+
+  div.shot:hover, div.shot:focus {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+}
+
+.wave {
+  position: relative;
+  // height: 50px;
+  // background-color: $brand-accent-color;
+	// background-image: radial-gradient($brand-primary-color 10%, transparent 10%),
+	// radial-gradient($brand-primary-color 10%, transparent 10%);
+	// background-size: 30px 30px;
+	// background-position: 0 -20px, 15px 25px;
+}
+
+.wave::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle at 10px -5px, transparent 12px, $brand-accent-color 13px);
+}
+
+.wave::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(circle at 10px 15px, $brand-accent-color 12px, transparent 12px);
+}
+
+@include media-breakpoint-down(xs) {
+  .introduction > div {
+    display: block;
+
+    &:last-child {
+      display: none;
+    }
+  }
+
+  .portfolio {
+    > div {
+      padding: 2rem;
+    }
+
+    .h1 {
+      font-size: 2.5rem;
+    }
+  }
+};
+
+@include media-breakpoint-down(sm) {
+  .introduction > div {
+    padding: 2rem;
+  }
+};

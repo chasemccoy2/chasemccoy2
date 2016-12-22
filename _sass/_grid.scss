@@ -1,0 +1,26 @@
+.container {
+  @include container(center);
+}
+
+@if (variable-exists(breakpoints)) {
+  @each $bp-name, $bp-value in $breakpoints {
+    @if $bp-name == 'xs' {
+      @media all {
+        @for $i from 1 through map-get($susy, columns) {
+          .col-#{$bp-name}-#{$i} {
+            @include span($i)
+          }
+        }
+      }
+    }
+    @else {
+      @include media-breakpoint-up($bp-name) {
+        @for $i from 1 through map-get($susy, columns) {
+          .col-#{$bp-name}-#{$i} {
+            @include span($i)
+          }
+        }
+      }
+    }
+  }
+}
