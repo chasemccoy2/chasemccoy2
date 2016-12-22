@@ -31,14 +31,15 @@
 
 ul.shots {
   li.shot {
-    margin-bottom: 2 * gutter();
+    // margin-bottom: 2 * gutter();
   }
 
   div.shot {
     background-color: white;
     background-position: center center;
     @include aspect-ratio(4, 3);
-    box-shadow: 0px 0px 42px 16px rgba($brand-primary-color, 0.16);
+    box-shadow: inset 1px 1px 0px 0px rgba(200, 200, 200, 0.5);
+    // box-shadow: 0px 0px 42px 16px rgba($brand-primary-color, 0.16);
     // -webkit-filter: grayscale(100%);
     // filter: grayscale(100%);
     // transition: filter 0.3s;
@@ -96,7 +97,7 @@ ul.shots {
 
   .portfolio {
     > div {
-      padding: 2.5rem 0.5rem;
+      padding: 2.5rem 0rem;
     }
   }
 };
