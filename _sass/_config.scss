@@ -17,10 +17,12 @@
 // ----------------------
 
 $susy: (
+  math: fluid,
   columns: 12,
-  gutters: 0.35,
+  column-width: 100px,
+  gutters: 20px/100px,
   container: 90rem,
-  gutter-position: split
+  gutter-position: inside-static
 );
 
 //  BREAKPOINTS ----------
@@ -108,7 +110,7 @@ $serif: serif;
 /// Font size for H1 elements
 /// @type Number (rem)
 /// @group Config
-$h1: 3rem;      // 32px
+$h1: 3.5rem;      // 32px
 
 /// Font size for H2 elements
 /// @type Number (rem)
