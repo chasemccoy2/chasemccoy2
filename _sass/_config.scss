@@ -48,10 +48,10 @@ $susy: (
 /// @property {Number (em)} md [52em] - Medium width devices (tablets and notebooks)
 /// @property {Number (em)} lg [64em] - Large width devices (desktop computers)
 $breakpoints: (
-  xs: 32em, // 512px
-  sm: 40em, // 640px
-  md: 52em, // 832px
-  lg: 64em  // 1024px
+  xs: 30em, // 512px
+  sm: 43em, // 640px
+  md: 55em, // 832px
+  lg: 66em  // 1024px
 );
 
 //  LOOP COUNTS -----------

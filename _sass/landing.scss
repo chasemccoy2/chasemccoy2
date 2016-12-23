@@ -1,5 +1,5 @@
 .introduction {
-  min-height: calc(100vh - 65px);
+  min-height: calc(100vh);
   background-image: linear-gradient(135deg, $brand-accent-color 0%, $brand-primary-color 90%);
 }
 
@@ -39,24 +39,19 @@
 
 .rainbow {
   * {
-    height: 10px;
-    background-color: $brand-primary-color;
+    height: 12px;
   }
 
   .r1 { background-color: mix($brand-primary-color, $brand-accent-color, 100%) }
-  .r2 { background-color: mix($brand-primary-color, $brand-accent-color, 80%) }
-  .r3 { background-color: mix($brand-primary-color, $brand-accent-color, 65%) }
-  .r4 { background-color: mix($brand-primary-color, $brand-accent-color, 50%) }
-  .r5 { background-color: mix($brand-primary-color, $brand-accent-color, 20%) }
-  .r6 { background-color: mix($brand-primary-color, $brand-accent-color, 0%) }
+  .r2 { background-color: mix($brand-primary-color, $brand-accent-color, 83%) }
+  .r3 { background-color: mix($brand-primary-color, $brand-accent-color, 67%) }
+  .r4 { background-color: mix($brand-primary-color, $brand-accent-color, 51%) }
+  .r5 { background-color: mix($brand-primary-color, $brand-accent-color, 35%) }
+  .r6 { background-color: mix($brand-primary-color, $brand-accent-color, 19%) }
 }
 
 .portfolio {
   min-height: 100vh;
-
-  .h1 {
-    margin-left: gutter();
-  }
 }
 
 ul.shots {
@@ -135,5 +130,19 @@ ul.shots {
 @include media-breakpoint-down(sm) {
   .introduction > div {
     padding: 1.5rem;
+  }
+
+  .portfolio {
+    > .container > div:first-child {
+      display: block;
+    }
+
+    .h1 {
+      padding: 1rem 0;
+    }
+
+    .h4 {
+      padding: 1rem 0 2rem;
+    }
   }
 };
