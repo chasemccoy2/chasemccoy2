@@ -1,10 +1,11 @@
 .introduction {
-  min-height: 102vh
+  min-height: calc(100vh - 65px);
+  background-image: linear-gradient(135deg, $brand-accent-color 0%, $brand-primary-color 90%);
 }
 
 .portrait {
   width: 100%;
-  background-image: linear-gradient(90deg, $brand-primary-color, rgba($brand-primary-color, 0.3) 30%, rgba($brand-primary-color, 0.0) 40%), url("/assets/img/portrait.png");
+  background-image: url("/assets/img/portrait.png");
   background-size: cover;
 }
 
@@ -19,6 +20,35 @@
 
 .primary-shadow {
   @include text-shadow(map-get(map-get($brand-palette, brand-primary), brand-primary));
+}
+
+.nav-bar {
+  height: 65px;
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-margin {
+  margin-top: 125px;
+}
+
+.rainbow {
+  * {
+    height: 10px;
+    background-color: $brand-primary-color;
+  }
+
+  .r1 { background-color: mix($brand-primary-color, $brand-accent-color, 100%) }
+  .r2 { background-color: mix($brand-primary-color, $brand-accent-color, 80%) }
+  .r3 { background-color: mix($brand-primary-color, $brand-accent-color, 65%) }
+  .r4 { background-color: mix($brand-primary-color, $brand-accent-color, 50%) }
+  .r5 { background-color: mix($brand-primary-color, $brand-accent-color, 20%) }
+  .r6 { background-color: mix($brand-primary-color, $brand-accent-color, 0%) }
 }
 
 .portfolio {
@@ -38,7 +68,7 @@ ul.shots {
     background-color: white;
     background-position: center center;
     @include aspect-ratio(4, 3);
-    box-shadow: inset 1px 1px 0px 0px rgba(200, 200, 200, 0.5);
+    box-shadow: inset 1px 1px 0px 0px rgba(200, 200, 200, 0.5), inset -1px -1px 0px 0px rgba(200, 200, 200, 0.5);
     // box-shadow: 0px 0px 42px 16px rgba($brand-primary-color, 0.16);
     // -webkit-filter: grayscale(100%);
     // filter: grayscale(100%);
