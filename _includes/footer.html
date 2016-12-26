@@ -20,10 +20,18 @@
     shots.forEach(function(shot) {
       var images = shot.images;
       var img = (images.hidpi) ? images.hidpi : images.normal;
-      html.push('<li class="shot col-md-3 col-sm-6 col-xs-12 px0">');
-      html.push('<a href="' + shot.html_url + '" target="_blank">');
-      html.push('<div class="shot cover" style="background-image: url(' + img + ')"')
-      // html.push('<img src="' + shot.images.hidpi + '">');
+      html.push('<li class="shot px0">');
+        html.push('<a class="text-decoration-none color-brand-accent" href="' + shot.html_url + '" target="_blank">');
+        html.push('<div class="shot card bg-component">');
+          html.push('<div class="shot cover bg-component" style="background-image: url(' + img + ')"></div>');
+          html.push('<div class="shot info"><h3 class="color-brand-primary bold center pb1">' + shot.title + '</h3>');
+          if (shot.description) {
+            html.push(shot.description + '</div>');
+          }
+          else {
+            html.push('</div>');
+          }
+        html.push('</div>');
       html.push('</a></li>');
     });
 
