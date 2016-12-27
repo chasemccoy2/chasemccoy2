@@ -98,8 +98,9 @@ $layout-count: 32;
 // ----------------------
 
 // Fonts
-$sans: "Proxima Nova", sans-serif;
-$serif: Lust Script, serif;
+$sans: "Tisa Sans Pro", "Proxima Nova", sans-serif;
+$serif: "Tisa Pro", serif;
+$script: "Lust Script", serif;
 
 //  TYPE SCALE ------------
 // Here we define the sizes for our heading elements using rem units.
@@ -160,12 +161,12 @@ $line-height-2:  1.25;
 /// Increases line height by 50%
 /// @type Number (unitless)
 /// @group Config
-$line-height-3:  1.75;
+$line-height-3:  1.50;
 
 /// Doubles the base line height
 /// @type Number (unitless)
 /// @group Config
-$line-height-4:  2.25;
+$line-height-4:  2.0;
 
 
 
@@ -202,19 +203,19 @@ $ui-palette: (
   placeholder: $ghost-gray,
 );
 
-$brand-primary-color: #253075;
-$brand-accent-color: #E8003D;
+$brand-primary-color: #3C2353;
+$brand-accent-color: #FF0051;
 
 $brand-primary: (
   brand-primary: $brand-primary-color,
   brand-primary-high: lighten($brand-primary-color, 20%),
-  brand-primary-low: darken($brand-primary-color, 20%)
+  brand-primary-low: darken($brand-primary-color, 10%)
 );
 
 $brand-accent: (
   brand-accent: $brand-accent-color,
   brand-accent-high: lighten($brand-accent-color, 20%),
-  brand-accent-low: darken($brand-accent-color, 20%)
+  brand-accent-low: darken($brand-accent-color, 30%)
 );
 
 $brand-palette: (

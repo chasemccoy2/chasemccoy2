@@ -10,7 +10,7 @@ body {
 .h6 { font-size: $h6; }
 
 a {
-  color: map-get($brand-accent, brand-accent);
+  color: map-get($brand-accent, brand-accent-low);
   text-decoration: underline;
   -o-transition: .5s;
   -ms-transition: .5s;
@@ -19,7 +19,7 @@ a {
   transition: .5s;
 
   &:hover {
-    color: map-get($brand-accent, brand-accent-low);
+    color: map-get($brand-accent, brand-accent);
   }
 
   &:active {

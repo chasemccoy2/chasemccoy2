@@ -10,10 +10,12 @@
 }
 
 .h1 {
-  // text-transform: uppercase;
-  // letter-spacing: 0.8rem;
-  font-family: $serif;
+  font-family: $script;
   font-weight: 400;
+}
+
+.h2 {
+  font-family: $serif;
 }
 
 .accent-shadow {
@@ -22,6 +24,11 @@
 
 .primary-shadow {
   // @include text-shadow(map-get(map-get($brand-palette, brand-primary), brand-primary));
+}
+
+hr {
+  width: 40%;
+  height: 12px;
 }
 
 .nav-bar {
@@ -44,27 +51,19 @@
     height: 12px;
   }
 
-  .r1 { background-color: mix($brand-primary-color, $brand-accent-color, 100%) }
-  .r2 { background-color: mix($brand-primary-color, $brand-accent-color, 83%) }
-  .r3 { background-color: mix($brand-primary-color, $brand-accent-color, 67%) }
-  .r4 { background-color: mix($brand-primary-color, $brand-accent-color, 51%) }
-  .r5 { background-color: mix($brand-primary-color, $brand-accent-color, 35%) }
-  .r6 { background-color: mix($brand-primary-color, $brand-accent-color, 19%) }
+  .r1 { background-color: mix($brand-accent-color, $brand-primary-color, 100%) }
+  .r2 { background-color: mix($brand-accent-color, $brand-primary-color, 83%) }
+  .r3 { background-color: mix($brand-accent-color, $brand-primary-color, 67%) }
+  .r4 { background-color: mix($brand-accent-color, $brand-primary-color, 51%) }
+  .r5 { background-color: mix($brand-accent-color, $brand-primary-color, 35%) }
+  .r6 { background-color: mix($brand-accent-color, $brand-primary-color, 19%) }
 }
 
 .portfolio {
   min-height: 100vh;
 
   .container {
-    @include media-breakpoint-up(sm) {
-      padding: 1.5rem 0;
-    };
-  }
-
-  .shots-container {
-    @include media-breakpoint-up(sm) {
-      padding: 0 1.5rem;
-    };
+    padding: 1.5rem;
   }
 }
 
@@ -76,6 +75,10 @@ ul.shots {
   }
 
   @include media-breakpoint-up(sm) {
+    column-count: 3;
+  };
+
+  @include media-breakpoint-up(md) {
     column-count: 4;
   };
 
@@ -84,26 +87,27 @@ ul.shots {
     margin-bottom: 1.5rem;
     display: inline-block;
 
-    p {
-      color: black;
-    }
+    p { color: map-get($brand-primary, brand-primary-low); }
+    a { word-wrap: break-word; }
 
     .card {
-      @include media-breakpoint-up(sm) {
-        border-radius: 8px;
-      };
+      border-radius: 8px;
+      // border: 4px solid rgba($brand-primary-color, 0.7);
     }
 
     .cover {
-      @include media-breakpoint-up(sm) {
-        border-radius: 8px 8px 0 0;
-      };
+      border-radius: 8px 8px 0 0;
+
       background-position: center center;
       @include aspect-ratio(4, 3);
     }
 
     .info {
-      padding: 1rem .5rem 1rem;
+      padding: 1rem;
+
+      h3 {
+        font-family: $serif;
+      }
     }
   }
 }
@@ -172,7 +176,7 @@ ul.shots {
       padding: 1rem 0;
     }
 
-    .h4 {
+    .h3 {
       padding: 1rem 0 2rem;
     }
   }

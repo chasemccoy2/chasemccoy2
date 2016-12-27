@@ -6,7 +6,7 @@
 <script src="assets/js/jquery.fittext.js"></script>
 <script>
   jQuery("#site-title").fitText(0.5);
-  jQuery("#portfolio-title").fitText();
+  jQuery("#portfolio-title").fitText(0.9);
 </script>
 
 <script src="assets/js/jribbble.min.js"></script>
@@ -21,18 +21,16 @@
       var images = shot.images;
       var img = (images.hidpi) ? images.hidpi : images.normal;
       html.push('<li class="shot px0">');
-        html.push('<a class="text-decoration-none color-brand-accent" href="' + shot.html_url + '" target="_blank">');
         html.push('<div class="shot card bg-component">');
-          html.push('<div class="shot cover bg-component" style="background-image: url(' + img + ')"></div>');
-          html.push('<div class="shot info"><h3 class="color-brand-primary bold center pb1">' + shot.title + '</h3>');
+          html.push('<a class="text-decoration-none" href="' + shot.html_url + '" target="_blank">');
+          html.push('<div class="shot cover bg-brand-component" style="background-image: url(' + img + ')"></div></a>');
+          html.push('<div class="shot info"><a class="text-decoration-none color-brand-primary" href="' + shot.html_url + '" target="_blank"><h3 class="color-brand-primary bold center pb1">' + shot.title + '</h3></a>');
           if (shot.description) {
-            html.push(shot.description + '</div>');
+            html.push(shot.description);
           }
-          else {
-            html.push('</div>');
-          }
+          html.push('</div>');
         html.push('</div>');
-      html.push('</a></li>');
+      html.push('</li>');
     });
 
     $('.shots').html(html.join(''));
