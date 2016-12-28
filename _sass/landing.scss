@@ -1,7 +1,8 @@
 .introduction {
   min-height: calc(100vh);
-  background-image: url("/assets/img/topography.png");
 }
+
+.topography { background-image: url("/assets/img/topography.png"); }
 
 .portrait {
   width: 100%;
@@ -24,16 +25,16 @@ hr {
   height: 12px;
 }
 
+.container {
+  padding: 1.5rem 1rem;
+
+  @include media-breakpoint-up(sm) {
+    padding: 1.5rem 4rem;
+  };
+}
+
 .portfolio {
   min-height: 100vh;
-
-  .container {
-    padding: .5rem;
-
-    @include media-breakpoint-up(sm) {
-      padding: 1.5rem 4rem;
-    };
-  }
 
   .portfolio-item {
     margin-bottom: 4rem;
@@ -41,7 +42,7 @@ hr {
     &:last-child {
       margin-bottom: 1rem;
     }
-    
+
     .image {
       margin: .5rem 0 1rem;
 
@@ -85,12 +86,6 @@ ul.shots {
 
     &:last-child {
       display: none;
-    }
-  }
-
-  .portfolio {
-    > div {
-      padding: 2.5rem 0rem;
     }
   }
 };
