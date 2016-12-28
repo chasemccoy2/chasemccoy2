@@ -85,7 +85,13 @@ ul.shots {
     display: block;
 
     &:last-child {
-      display: none;
+      height: 65vh;
+    }
+  }
+
+  .contact {
+    .h3 {
+      font-size: 1.75rem;
     }
   }
 };
