@@ -2,6 +2,9 @@ body {
   font-family: $sans;
 }
 
+.sans { font-family: $sans; }
+.serif { font-family: $serif; }
+
 .h1 { font-size: $h1; }
 .h2 { font-size: $h2; }
 .h3 { font-size: $h3; }

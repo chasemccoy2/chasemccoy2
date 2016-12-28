@@ -98,9 +98,9 @@ $layout-count: 32;
 // ----------------------
 
 // Fonts
-$sans: "Tisa Sans Pro", "Proxima Nova", sans-serif;
-$serif: "Tisa Pro", serif;
-$script: "Lust Script", serif;
+$sans: "pt-sans", "Tisa Sans Pro", "Proxima Nova", sans-serif;
+$serif: "pt-serif", "Tisa Pro", serif;
+$script: "lust-script-display", "Lust Script", serif;
 
 //  TYPE SCALE ------------
 // Here we define the sizes for our heading elements using rem units.
@@ -111,7 +111,7 @@ $script: "Lust Script", serif;
 /// Font size for H1 elements
 /// @type Number (rem)
 /// @group Config
-$h1: 3.5rem;      // 32px
+$h1: 3.0rem;      // 32px
 
 /// Font size for H2 elements
 /// @type Number (rem)
@@ -121,7 +121,7 @@ $h2: 2.5rem;    // 24px
 /// Font size for H3 elements
 /// @type Number (rem)
 /// @group Config
-$h3: 2rem;   // 20px
+$h3: 2.0rem;   // 20px
 
 /// Font size for H4 elements
 /// @type Number (rem)
@@ -131,7 +131,7 @@ $h4: 1.5rem;      // 16px
 /// Font size for H5 elements
 /// @type Number (rem)
 /// @group Config
-$h5: 1rem;  // 14px
+$h5: 1.0rem;  // 14px
 
 /// Font size for H6 elements
 /// @type Number (rem)
@@ -190,6 +190,7 @@ $border-pill: 32px;
 // UI Color Definitions
 $white: #FFFFFF;
 $black: #000000;
+$cream: #FEFEF3;
 $phantom-gray: #56718C;
 $wraith-gray: #BCD3DE;
 $ghost-gray: #E1ECF2;
@@ -198,13 +199,14 @@ $shade-gray: #B7C3CE;
 $ui-palette: (
   white: $white,
   primary: $black,
+  cream: $cream,
   secondary: $phantom-gray,
   tertiary: $wraith-gray,
   placeholder: $ghost-gray,
 );
 
 $brand-primary-color: #3C2353;
-$brand-accent-color: #FF0051;
+$brand-accent-color: #f37042;
 
 $brand-primary: (
   brand-primary: $brand-primary-color,

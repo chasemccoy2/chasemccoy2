@@ -1,3 +1,11 @@
 html {
   font-size: 18px;
+  color: $brand-primary-color;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 0px 24px 10px rgba($brand-primary-color, 0.15);
+  border: 1px solid rgba($brand-primary-color, 0.3);
 }

@@ -8,7 +8,8 @@
       @media all {
         @for $i from 1 through map-get($susy, columns) {
           .col-#{$bp-name}-#{$i} {
-            @include span($i)
+            @include span($i);
+            min-height: 1px;
           }
         }
       }
@@ -17,7 +18,8 @@
       @include media-breakpoint-up($bp-name) {
         @for $i from 1 through map-get($susy, columns) {
           .col-#{$bp-name}-#{$i} {
-            @include span($i)
+            @include span($i);
+            min-height: 1px;
           }
         }
       }
