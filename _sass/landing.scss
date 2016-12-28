@@ -1,6 +1,5 @@
 .introduction {
   min-height: calc(100vh);
-  // background-image: linear-gradient(135deg, $brand-accent-color 0%, $brand-primary-color 90%);
   background-image: url("/assets/img/topography.png");
 }
 
@@ -20,45 +19,9 @@
   font-family: $serif;
 }
 
-.accent-shadow {
-  // @include text-shadow(map-get(map-get($brand-palette, brand-accent), brand-accent-high));
-}
-
-.primary-shadow {
-  // @include text-shadow(map-get(map-get($brand-palette, brand-primary), brand-primary));
-}
-
 hr {
   width: 40%;
   height: 12px;
-}
-
-.nav-bar {
-  height: 65px;
-}
-
-.nav-fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-}
-
-.nav-margin {
-  margin-top: 125px;
-}
-
-.rainbow {
-  * {
-    height: 12px;
-  }
-
-  .r1 { background-color: mix($brand-accent-color, $brand-primary-color, 100%) }
-  .r2 { background-color: mix($brand-accent-color, $brand-primary-color, 83%) }
-  .r3 { background-color: mix($brand-accent-color, $brand-primary-color, 67%) }
-  .r4 { background-color: mix($brand-accent-color, $brand-primary-color, 51%) }
-  .r5 { background-color: mix($brand-accent-color, $brand-primary-color, 35%) }
-  .r6 { background-color: mix($brand-accent-color, $brand-primary-color, 19%) }
 }
 
 .portfolio {
@@ -73,6 +36,12 @@ hr {
   }
 
   .portfolio-item {
+    margin-bottom: 4rem;
+
+    &:last-child {
+      margin-bottom: 1rem;
+    }
+    
     .image {
       margin: .5rem 0 1rem;
 
@@ -108,40 +77,6 @@ ul.shots {
       }
     }
   }
-}
-
-.wave {
-  position: relative;
-  // height: 50px;
-  // background-color: $brand-accent-color;
-	// background-image: radial-gradient($brand-primary-color 10%, transparent 10%),
-	// radial-gradient($brand-primary-color 10%, transparent 10%);
-	// background-size: 30px 30px;
-	// background-position: 0 -20px, 15px 25px;
-}
-
-.wave::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-repeat: repeat;
-  height: 10px;
-  background-size: 20px 20px;
-  background-image: radial-gradient(circle at 10px -5px, transparent 12px, $brand-accent-color 13px);
-}
-
-.wave::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-repeat: repeat;
-  height: 15px;
-  background-size: 40px 20px;
-  background-image: radial-gradient(circle at 10px 15px, $brand-accent-color 12px, transparent 12px);
 }
 
 @include media-breakpoint-down(xs) {

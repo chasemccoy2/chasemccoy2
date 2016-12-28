@@ -9,3 +9,24 @@ img {
   box-shadow: 0px 0px 24px 10px rgba($brand-primary-color, 0.15);
   border: 1px solid rgba($brand-primary-color, 0.3);
 }
+
+.wf-loading {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.ie.wf-loading {
+  visibility: hidden;
+}
+
+.ie.wf-active {
+  visibility: visible;
+}
+
+.wf-active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity .625s ease-in-out;
+  -moz-transition: opacity .625s ease-in-out;
+  transition: opacity .625s ease-in-out;
+}
