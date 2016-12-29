@@ -5,8 +5,8 @@
 
 <script src="assets/js/jquery.fittext.js"></script>
 <script>
-  jQuery("#site-title").fitText(0.5);
-  jQuery(".portfolio-title").fitText(0.6);
+  jQuery("#site-title").fitText(0.6);
+  jQuery(".portfolio-title").fitText(0.7);
 </script>
 
 <script src="assets/js/jribbble.min.js"></script>
@@ -34,31 +34,6 @@
     });
 
     $('.shots').html(html.join(''));
-  });
-
-  function stickyNav() {
-    var stickyNavTop = $('#nav').offset().top;
-
-    $(window).scroll(function () {
-      var scrollTop = $(window).scrollTop();
-
-      if (scrollTop >= stickyNavTop) {
-        $('#nav').addClass('nav-fixed');
-        $('body').addClass('nav-margin');
-      }
-      else {
-        $('#nav').removeClass('nav-fixed');
-        $('body').removeClass('nav-margin');
-      }
-    });
-  }
-
-  $(document).ready(function() {
-    // stickyNav();
-    //
-    // $(window).on("resize", function () {
-    //   stickyNav();
-    // })
   });
 </script>
 
