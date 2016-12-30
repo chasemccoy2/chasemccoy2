@@ -17,8 +17,9 @@
       {% if item.collection == 'portfolio' %}
         <div class="portfolio-item clearfix">
           <div class="col-xs-12">
-            <img class="col-xs-12 col-md-5 image px0" src="/assets/portfolio/{{ item.image }}">
-            <span class="h3 color-brand-accent title bold">{{ item.title }}</span><br>
+            <span class="h2 color-brand-primary title bold mobile">{{ item.title }}</span>
+            <img class="col-xs-12 col-md-6 col-lg-4 image px0" src="/assets/portfolio/{{ item.image }}">
+            <span class="h2 color-brand-primary title bold desktop">{{ item.title }}</span>
             <span class="h4 line-height-3 description">{{ item.content }}</span>
           </div>
         </div>
