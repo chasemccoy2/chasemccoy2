@@ -1,8 +1,8 @@
 # Site settings
 title: "Chase McCoy "
 email: "chasem000@gmail.com"
-description: "Description"
-url: "Site URL"
+description: "Chase McCoy is a front-end designer and developer who wants to make the web a better place with beautiful pixels and clean bits. "
+url: "http://chasem.co"
 
 # Build settings
 markdown: kramdown
