@@ -13,3 +13,5 @@ permalink: /:year/:month/:title
 collections:
   portfolio:
     output: false
+  timeline:
+    output: false
