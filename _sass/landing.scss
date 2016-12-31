@@ -92,6 +92,12 @@ ul.shots {
   }
 }
 
+.dribbble {
+  a:hover {
+    color: $cream;
+  }
+}
+
 @include media-breakpoint-down(xs) {
   .introduction > div {
     display: block;
