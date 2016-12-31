@@ -13,7 +13,7 @@
     </div>
 
     <div class="col-xs-12">
-      <ul class="timeline list-inline relative block mt2">
+      <ul class="timeline list-reset relative block mt2">
         {% assign documents = (site.documents | sort: 'url') %}
         {% for item in documents %}
           {% if item.collection == 'timeline' %}
