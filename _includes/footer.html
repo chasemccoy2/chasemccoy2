@@ -19,7 +19,7 @@
 
     shots.forEach(function(shot) {
       var images = shot.images;
-      var img = (images.hidpi) ? images.hidpi : images.normal;
+      var img = (images.hidpi) ? images.normal : images.normal;
       html.push('<li class="shot col-xs-12 col-sm-4 col-md-3">');
         html.push('<div class="shot card bg-component">');
           html.push('<a class="text-decoration-none" href="' + shot.html_url + '" target="_blank">');
