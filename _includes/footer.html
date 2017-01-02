@@ -14,7 +14,7 @@
 <script>
   $.jribbble.setToken('ad1f77e3394d27bc79b40c856f28f259103965f081c031ed5d603cbdaffe0856');
 
-  $.jribbble.users('chase_mccoy').shots({per_page: 100}).then(function(shots) {
+  $.jribbble.users('chase_mccoy').shots({per_page: 8}).then(function(shots) {
     var html = [];
 
     shots.forEach(function(shot) {
@@ -24,11 +24,6 @@
         html.push('<div class="shot card bg-component">');
           html.push('<a class="text-decoration-none" href="' + shot.html_url + '" target="_blank">');
           html.push('<div class="shot cover bg-brand-component" style="background-image: url(' + img + ')"></div></a>');
-          // html.push('<div class="shot info"><a class="text-decoration-none color-brand-primary" href="' + shot.html_url + '" target="_blank"><h3 class="color-brand-primary bold center pb1">' + shot.title + '</h3></a>');
-          // if (shot.description) {
-          //   html.push(shot.description);
-          // }
-          // html.push('</div>');
         html.push('</div>');
       html.push('</li>');
     });
