@@ -43,12 +43,12 @@
 
     &.center {
       float: left;
-      right: 10px;
+      right: 5px;
       margin-top: 14px;
 
       @include media-breakpoint-up(sm) {
         float: none;
-        right: 3px;
+        right: 1px;
       };
     }
   }
