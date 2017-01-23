@@ -12,7 +12,7 @@
       </div>
     </div>
 
-    {% assign documents = (site.documents | sort: 'date') | reverse %}
+    {% assign documents = site.documents | reverse %}
     {% for item in documents %}
       {% if item.collection == 'portfolio' %}
         <div class="portfolio-item clearfix">
