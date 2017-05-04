@@ -1,7 +1,7 @@
 ---
 title: Pico Digital Film
+date: 2017-01-23 00:00:00 Z
 image: pico.png
-date: 2017-01-23
 link: http://pico.camera
 ---
 

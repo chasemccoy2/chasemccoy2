@@ -1,17 +1,23 @@
-# Site settings
-title: "Chase McCoy "
-email: "chasem000@gmail.com"
-description: "Chase McCoy is a front-end designer and developer who wants to make the web a better place with beautiful pixels and clean bits. "
-url: "http://chasem.co"
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-permalink: /:year/:month/:title
-
+---
+title: 'Chase McCoy '
+timezone: UTC
 collections:
   portfolio:
+    title: Portfolio
     output: false
+  posts:
+    title: Posts
+    output: true
   timeline:
+    title: Timeline
     output: false
+  uploads:
+    title: Uploads
+    output: true
+email: chasem000@gmail.com
+description: 'Chase McCoy is a front-end designer and developer who wants to make
+  the web a better place with beautiful pixels and clean bits. '
+url: http://chasem.co
+markdown: kramdown
+highlighter: rouge
+permalink: "/:year/:month/:title"
