@@ -1,0 +1,19 @@
+header {
+	@include grid-column(4);
+	margin-top: 92px;
+	margin-bottom: 104px;
+
+	h1 {
+		// background-color: $color-dark;
+		display: inline-block;
+		font-weight: 900;
+		// padding: 2px 6px 4px 6px;
+		// border-radius: 2px;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+	}
+}
+
+.bio {
+	margin-bottom: 96px;
+}

@@ -1,0 +1,63 @@
+h1, h2, h3, h4, h5, h6 {
+	font-size: $root-font-size;
+  font-weight: 800;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+
+	.small & {
+		font-size: $small-font-size;
+	}
+
+	&.soft {
+		font-weight: 400;
+	}
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+	color: $color-dark;
+
+  &:hover,
+  &:focus {
+		color: $color-light;
+
+		img {
+			opacity: 0.8;
+		}
+  }
+
+	h1 & {
+		text-decoration: none;
+	}
+}
+
+.item a {
+	text-decoration: none;
+}
+
+.soft {
+	color: $color-light;
+}
+
+.small {
+	font-size: $small-font-size;
+}
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+	margin: 0;
+}
+
+.list-inline {
+  @extend .list-reset;
+  margin-left: -5px;
+
+  > li {
+    display: inline-block;
+  }
+}

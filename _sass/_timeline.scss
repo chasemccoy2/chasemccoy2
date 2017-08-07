@@ -1,0 +1,119 @@
+@include media-breakpoint-down(sm) {
+  .about {
+    > .container > div:first-child {
+      display: block;
+    }
+  }
+}
+.timeline {
+  overflow: hidden;
+	position: relative;
+
+	// background-color: lighten($color-light, 43%);
+
+	.title {
+		font-size: 1.5rem;
+		font-weight: bold;
+		margin: 0.5rem 0;
+	}
+
+	.meta {
+		color: $color-light;
+	}
+
+	.type {
+		color: $color-dark;
+		font-weight: bold;
+	}
+
+  .bubble {
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0px 0px 0px 1px white,
+                0px 0px 0px 4px $color-dark,
+                0px 0px 0px 10px white;
+    z-index: 1;
+		margin-left: 5px;
+
+		@include media-breakpoint-up(sm) {
+			right: 25px;
+		};
+
+    &.right {
+      @include media-breakpoint-up(sm) {
+        left: calc(100% + 7px);
+      };
+    }
+
+    &.center {
+      float: left;
+			margin-top: 8px;
+
+      @include media-breakpoint-up(sm) {
+        float: none;
+        right: 2px;
+      };
+    }
+  }
+
+  .panel {
+    margin-top: -24px;
+    margin-bottom: 48px;
+    position: relative;
+		margin-left: 40px;
+
+    &.right {
+      float: left;
+      text-align: left;
+    }
+
+    &.left {
+      float: right;
+      text-align: left;
+      margin-right: 0px;
+
+      @include media-breakpoint-up(sm) {
+        text-align: right;
+        margin-right: 40px;
+        margin-left: 0px;
+      };
+    }
+  }
+
+  &:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: "";
+    width: 2px;
+    background-color: $color-light;
+    left: 4px;
+    margin-left: 5px;
+
+    @include media-breakpoint-up(sm) {
+      left: 50%;
+      margin-left: 0;
+    };
+  }
+}
+
+.timeline.dob {
+  text-align: left;
+  overflow: visible;
+
+  @include media-breakpoint-up(sm) {
+    text-align: center;
+  };
+
+  .h4 {
+    margin-left: 30px;
+
+    @include media-breakpoint-up(sm) {
+      margin-left: 0;
+    };
+  }
+}

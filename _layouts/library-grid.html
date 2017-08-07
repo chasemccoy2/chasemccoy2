@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div class="page-content">{{ page.content }}</div>
+
+<div class="item-grid">
+	{% for collection in site.collections %}
+	  {% if collection.label == page.collection %}
+			{% for item in collection.docs %}
+				{% include library-grid-item.html %}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+</div>

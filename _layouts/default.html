@@ -1,5 +1,29 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="en">
 
-{{ content }}
+  {% include head.html %}
 
-{% include footer.html %}
+	<body>
+		<div title="You matter." class="love">&hearts;</div>
+		<!-- <img class="floral" src="/public/floral.png"></img> -->
+		<div class="banner"></div>
+
+		<div class="container content clearfix">
+			<header>
+				<h1><a href="/">Chase McCoy</a></h1>
+				<div class="soft small">design developer, enthusiast, helper</div>
+			</header>
+
+      <main class="clearfix">
+        {{ content }}
+      </main>
+
+      <footer class="footer small soft">
+        Thanks for stopping by. I'd love to chat, so hit me up
+				<a href="http://twitter.com/chase_mccoy">@chase_mccoy</a> or via
+				<a href="mailto:desk@chasemccoy.net">desk@chasemccoy.net</a>. Have a great day!
+      </footer>
+    </div>
+
+  </body>
+</html>

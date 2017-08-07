@@ -1,0 +1,15 @@
+<div class="item {{ page.collection }}">
+	<a href="{{ item.link }}">
+		<img class="item-image" src="/assets/{{ page.collection }}/{{ item.image }}">
+	</a>
+
+	<div class="item-info">
+		<a href="{{ item.link }}">
+			<h1>{{ item.title }}</h1>
+		</a>
+
+		<h2 class="soft small">{{ item.subtitle }}</h2>
+		
+		<div>{{ item.content }}</div>
+	</div>
+</div>

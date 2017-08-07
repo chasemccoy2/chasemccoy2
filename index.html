@@ -3,53 +3,29 @@ title: Chase McCoy
 layout: default
 ---
 
-<div class="introduction topography bg-brand-accent clearfix table">
-  <div class="pt6 pl10 pb6 col-xs-12 col-sm-6 float-none table-cell">
-    <div class="h1 extrabold color-cream" id="site-title">Chase McCoy</div>
-
-    <hr class="bg-page my3">
-
-    <p class="pt4 h2 line-height-3 color-cream">I'm a front-end designer and developer who wants to make the
-      web a better place with beautiful pixels and simple, clean bits. All I want to do is have a coffee and
-      learn new things.</p>
-  </div>
-
-  <div class="portrait col-xs-12 col-sm-6 float-none table-cell">
-  </div>
+<div class="bio">Hi, I’m Chase. It’s super nice to meet you. This site
+	was made to showcase some of the things that make me who I am. In short,
+	I am a developer and designer who works on the internet (and mobile too).
+	On a broader scale, I am a hoplessly wistful artist trying to find a
+	way to contribute to the world while taking care of my mental health.
+	I'm from the south, I live in Chicago, and I really have no clue what
+	I'm doing. It's spectacular.
 </div>
 
-{% include timeline.html %}
+<h1 class="intro strong">
+	If you have some time, I have some things I would really like to share with you.
+</h1>
 
-{% include portfolio.html %}
+{% for collection in site.collections %}
+	{% if collection.label != 'posts' %}
+		<a href="/{{ collection.label }}">
+			<div class="preview {{ collection.label }}">
+				<h1>{{ collection.label | capitalize }}</h1>
 
-<div class="contact topography bg-brand-accent">
-  <div class="container">
-    <div class="col-xs-12 h3 center">
-      <ul class="list-inline">
-        <li class="color-cream bold">Contact Me</li>
-        <li class="sans"><a class="color-brand-primary" href="mailto:desk@chasemccoy.net" target="_blank">desk@chasemccoy.net</a></li>
-        <li class="sans"><a class="color-brand-primary" href="http://twitter.com/chase_mccoy" target="_blank">@chase_mccoy</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio bg-brand-primary-low dribbble">
-  <div class="container">
-    <div class="flex items-center">
-      <div class="col-xs-12 col-sm-12 col-md-5">
-        <div class="h2 color-cream bold portfolio-title">Dribbble</div>
-        <hr class="bg-brand-accent">
-      </div>
-
-      <div class="col-xs-12 col-sm-12 col-md-7">
-        <div class="color-cream h3 line-height-3 bold serif py3">You can see some of my other pixels and bits
-        by browsing through <a href="https://dribbble.com/chase_mccoy">my Dribbble feed</a>. Here is a small sample.</div>
-      </div>
-    </div>
-
-    <div class="col-xs-12 px0 shots-container">
-      <ul class="shots list-reset"></ul>
-    </div>
-  </div>
-</div>
+				{% for item in collection.docs limit:4 %}
+					<img class="item-image" src="/assets/{{ item.collection }}/{{ item.image }}">
+				{% endfor %}
+			</div>
+		</a>
+	{% endif %}
+{% endfor %}

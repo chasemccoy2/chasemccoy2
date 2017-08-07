@@ -1,43 +1,20 @@
-<div class="about bg-brand-primary">
-  <div class="container">
-    <div class="flex items-center pb2 clearfix">
-      <div class="col-xs-12 col-sm-12 col-md-5">
-        <div class="h2 color-cream bold portfolio-title">About Me</div>
-        <hr class="bg-brand-accent">
-      </div>
+<ul class="timeline list-reset col-xs-6">
+	{% for item in site.timeline %}
+	<div class="row">
+		<div class="{% cycle 'col-xs-3 col-md-3', 'col-xs-6 col-md-0' %}"></div>
+			<li class="item col-xs-6 col-sm-3">
+				<div class="bubble {% cycle 'left', 'right' %}"></div>
+				<div class="panel {% cycle 'right', 'left' %} card">
+					<div class="meta"><span class="type">{{ item.type }}&nbsp</span>&nbsp{{ item.date_range }}</div>
+					<div class="title">{{ item.title }}</div>
+					{{ item.content }}
+				</div>
+			</li>
+	</div>
+	{% endfor %}
+</ul>
 
-      <div class="col-xs-12 col-sm-12 col-md-7">
-        <div class="color-cream h3 line-height-3 bold serif py3">A brief history of my education and work experience
-        throughout the years.</div>
-      </div>
-    </div>
-
-    <div class="col-xs-12">
-      <ul class="timeline list-reset relative block mt2">
-        {% assign documents = (site.documents | sort: 'url') %}
-        {% for item in documents %}
-          {% if item.collection == 'timeline' %}
-          <div class="col-xs-12">
-            <div class="col-xs-12 {% cycle 'col-sm-6 col-md-6', 'col-sm-0 col-md-1' %}"></div>
-            <div class="col-xs-12 col-sm-6 col-md-5">
-              <li class="item">
-                <div class="bubble {% cycle 'left', 'right' %}"></div>
-                <div class="panel {% cycle 'right', 'left' %}">
-                  <div class="h4 color-cream mb1"><span class="color-brand-accent bold">{{ item.type }}&nbsp</span>&nbsp{{ item.date_range }}</div>
-                  <div class="h3 color-cream serif bold mb2">{{ item.title }}</div>
-                  {{ item.content }}
-                </div>
-              </li>
-            </div>
-          </div>
-          {% endif %}
-        {% endfor %}
-      </ul>
-
-      <div class="timeline dob col-xs-12 clearfix mb4 color-cream">
-        <div class="bubble center"></div>
-        <div class="h4 bold serif"><span class="color-brand-accent bold">Born&nbsp;</span>&nbsp;May 4, 1995</div>
-      </div>
-    </div>
-  </div>
+<div class="timeline dob col-xs-6 clearfix">
+  <div class="bubble center"></div>
+  <div class="meta"><span class="h4 type">Born&nbsp;</span>&nbsp;May 4, 1995</div>
 </div>

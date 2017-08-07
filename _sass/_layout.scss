@@ -1,72 +1,128 @@
-.inline { display: inline }
-.block { display: block }
-.inline-block { display: inline-block }
-.table { display: table }
-.table-row { display: table-row }
-.table-cell { display: table-cell }
-
-.flex { display: flex; }
-.items-center { align-items: center; }
-
-.overflow-hidden { overflow: hidden }
-.overflow-scroll { overflow: scroll }
-.overflow-auto { overflow: auto }
-.overflow-visible { overflow: visible; }
-
-.fit { max-width: 100% }
-.fill-x { width: 100% }
-.fill-y { height: 100% }
-.fill { width: 100%; height: 100%; }
-.fill-viewport { width: 100vw; height: 100vh; }
-
-.float-none {
-  float: none;
+.love {
+	color: $color-light;
+	position: fixed;
+	bottom: 0;
+	left: 6px;
 }
 
-/// @group Helpers
-.float-left {
-  // Floats the element to the left.
-  float: left;
+img.floral {
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
-/// @group Helpers
-.float-right {
-  // Floats the element to the right.
-  float: right;
+.banner {
+	background-image: url('/public/banner.png');
+	background-size: 170px;
+	background-position: center;
+	height: 150px;
+	top: 0;
+	right: 0;
+	left: 0;
 }
 
-/// @name .clearfix
-/// @group Helpers
-.clearfix:after {
-  // Apply this class to a float-containing parent element
-  // in order to properly clear its children.
-  content: "";
-  display: table;
-  clear: both;
+.container {
+	@include grid-container;
+	// @include grid-visual;
+  max-width: 856px;
+	margin: 0 auto;
 }
 
-@for $i from 1 through $layout-count {
-  .x#{$i} {width: #{$i * .5}rem;}
-    .max-x#{$i} {max-width: #{$i * .5}rem;}
-    .min-x#{$i} {min-width: #{$i * .5}rem;}
-  .y#{$i} {height: #{$i * .5}rem;}
-    .max-y#{$i} {max-height: #{$i * .5}rem;}
-    .min-y#{$i} {min-height: #{$i * .5}rem;}
+@mixin row {
+	@include grid-column(4);
+	@include grid-collapse;
 }
 
-@mixin aspect-ratio($width, $height) {
-  position: relative;
-  &:before {
-    display: block;
-    content: "";
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
-  }
-  > .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+main {
+	@include grid-column(4);
+}
+
+h1.intro {
+	margin-bottom: 64px;
+}
+
+.preview {
+	@include row;
+	margin-bottom: 64px;
+
+	h1 {
+		@include grid-column(4);
+	}
+
+	img.item-image {
+		@include grid-column(2);
+
+		@include grid-media($desktop) {
+    	@include grid-column(1);
+  	}
+	}
+}
+
+.page-title {
+	margin-bottom: 64px;
+}
+
+.page-content {
+	margin-bottom: 64px;
+}
+
+.item-grid {
+	@include row;
+	display: flex;
+	align-items: baseline;
+
+	.item {
+		@include grid-column(2);
+
+		@include grid-media($desktop) {
+    	@include grid-column(1);
+  	}
+	}
+}
+
+.item-list {
+	.item {
+		@include grid-column(4);
+		@include row;
+
+		h1 {
+			margin-top: 0;
+		}
+
+		&-image {
+			@include grid-column(4);
+			margin-bottom: 24px;
+
+			@include grid-media($desktop) {
+	    	@include grid-column(2);
+				margin-bottom: 0;
+	  	}
+		}
+
+		&-info {
+			@include grid-column(4);
+
+			@include grid-media($desktop) {
+	    	@include grid-column(2);
+	  	}
+		}
+	}
+}
+
+.item {
+	margin-bottom: 80px;
+
+	h2 {
+		margin-top: 0;
+	}
+}
+
+img {
+	border-radius: 2px;
+}
+
+footer {
+	@include grid-column(4);
+	margin-top: 32px;
+	margin-bottom: 48px;
 }
