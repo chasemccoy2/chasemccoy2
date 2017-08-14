@@ -1,8 +1,8 @@
 ---
-title: Viva La Vida
+title: Viva La Vida Or Death And All His Friends
 subtitle: Coldplay
 image: viva.jpg
-link: https://www.amazon.com/dp/B01E4OMK46/ref=cm_sw_r_cp_dp_T1_0pLFzbANJP9XX
+link: https://open.spotify.com/album/1CEODgTmTwLyabvwd7HBty
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Coldplay gets a lot of hate, but I love their music and lyrics. Then again, I'm an extremely hopeless romantic. *Viva* is Coldplay at their best. See them live if you can.

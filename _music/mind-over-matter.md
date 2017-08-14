@@ -2,7 +2,7 @@
 title: Mind Over Matter
 subtitle: Young the Giant
 image: mind-over-matter.jpg
-link: https://www.amazon.com/dp/3721201450/ref=cm_sw_r_cp_dp_T1_DqLFzbJPXTPCH
+link: https://open.spotify.com/artist/4j56EQDQu5XnL7R3E9iFJT
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Young the Giant have become one of my favorite groups, and they don't get nearly enough credit. *Mind Over Matter* is a great album, and their other two records are great as well.

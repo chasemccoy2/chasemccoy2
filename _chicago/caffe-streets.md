@@ -2,7 +2,7 @@
 title: Caffe Streets
 subtitle: 1750 W Division St, Chicago, IL 60622
 image: caffe-streets.jpg
-link: https://www.amazon.com/dp/3721201450/ref=cm_sw_r_cp_dp_T1_DqLFzbJPXTPCH
+link: http://www.caffestreets.com
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+I love a good coffee shop. When I was choosing a neighborhood to live in before moving to Chicago, one of the factors I took into consideration was proximity to good coffee. Caffe Streets is less than a block from my apartment and they make a great cup. Outdoor seating, free WiFi, and and a cozy environment make this one of my favorite spots to work from or just to grab a coffee and people watch.
