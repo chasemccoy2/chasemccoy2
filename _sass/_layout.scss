@@ -41,6 +41,17 @@ h1.intro {
 	margin-bottom: 64px;
 }
 
+.theowlery {
+	background-color: rgba($color-light, 0.1);
+	border-radius: 4px;
+	padding: 10px 16px 20px 16px;
+	margin-bottom: 56px;
+
+	a {
+		font-weight: 800;
+	}
+}
+
 .preview {
 	@include row;
 	margin-bottom: 64px;
