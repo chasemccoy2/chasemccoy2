@@ -61,7 +61,10 @@ h1.intro {
 
 .preview {
 	@include row;
-	margin-bottom: 64px;
+	margin-bottom: 32px;
+	display: flex;
+	align-items: baseline;
+	flex-wrap: wrap;
 
 	h1 {
 		@include grid-column(4);
@@ -69,6 +72,7 @@ h1.intro {
 
 	img.item-image {
 		@include grid-column(2);
+		margin-bottom: 32px;
 
 		@include grid-media($desktop) {
     	@include grid-column(1);
@@ -88,6 +92,7 @@ h1.intro {
 	@include row;
 	display: flex;
 	align-items: baseline;
+	flex-wrap: wrap;
 
 	.item {
 		@include grid-column(2);
@@ -128,7 +133,7 @@ h1.intro {
 }
 
 .item {
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 
 	h2 {
 		margin-top: 0;
