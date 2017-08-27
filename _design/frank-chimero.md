@@ -1,6 +1,7 @@
 ---
 title: Frank Chimero
 subtitle: My favorite design writer. 
+image: chimero.jpg
 link: https://www.frankchimero.com/
 ---
 
