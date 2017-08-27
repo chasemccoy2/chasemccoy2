@@ -100,10 +100,6 @@ h1.intro {
 		@include grid-media($desktop) {
     		@include grid-column(1);
   		}
-  	
-  		&-image {
-  			margin-bottom: 8px;
-  		}
 	}
 }
 
